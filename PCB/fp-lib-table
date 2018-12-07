@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name ArduinoBadge)(type KiCad)(uri ${KIPRJMOD}/ArduinoBadge.pretty)(options "")(descr ""))
+  (lib (name MKR1000)(type KiCad)(uri /home/greynaga/Documents/KiCad/Arduino/Fritzing/MKR1000/MKR1000.pretty)(options "")(descr ""))
+  (lib (name HG_Con_Switch_OshPark)(type KiCad)(uri /home/greynaga/Documents/KiCad/github/HackerGarage/HG_Badge/HG_Con_Switch_OshPark)(options "")(descr ""))
+)
