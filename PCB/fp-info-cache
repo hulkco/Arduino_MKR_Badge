@@ -1,4 +1,109 @@
-15807527163457357
+15829133446356585
+ArduinoBadge
+Arduino.SilkS
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.SilkS.01
+Imported from Back.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.SilkS.02
+Imported from Back.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Fig.01.Cu.Mask
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Fig.02.Cu.Mask
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Fig.03.Cu.Mask
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Fig.04.Cu.Mask
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Fig.05.Cu.Mask
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Fig.06.Cu.Mask
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Hole_Big
+
+
+0
+1
+1
+ArduinoBadge
+LED_PLCC-2
+LED PLCC-2 SMD package
+LED PLCC-2 SMD
+0
+2
+2
+ArduinoBadge
+logo.all.02
+Imported from logo.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Sun.Led.Mask
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Sun.Led.Mask_01
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+SunLed_PLCC_Reverse-2
+LED PLCC-2 SMD package
+LED PLCC-2 SMD
+0
+2
+2
 Battery
 9VFemale
 
@@ -230,20 +335,6 @@ Keystone_2462_2AA
 0
 2
 2
-borg
-Borg.Cu.01
-Imported from Borg_Base.svg
-svg2mod
-0
-0
-0
-borg
-Borg.Edge.01
-Imported from Borg_Base.svg
-svg2mod
-0
-0
-0
 Button_Switch_Keyboard
 SW_Cherry_MX1A_1.00u_PCB
 Cherry MX keyswitch, MX1A, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -45899,13 +45990,6 @@ LED Cree PLCC-4
 4
 4
 LEDs
-LED_CREE-XB
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXBD.pdf
-LED CREE XB
-0
-5
-3
-LEDs
 LED_Cree-XB
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXBD.pdf
 LED Cree XB
@@ -45913,12 +45997,12 @@ LED Cree XB
 5
 3
 LEDs
-LED_CREE-XH
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XHB.pdf
-LED CREE XH
+LED_CREE-XB
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXBD.pdf
+LED CREE XB
 0
-8
-2
+5
+3
 LEDs
 LED_Cree-XH
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XHB.pdf
@@ -45927,12 +46011,12 @@ LED Cree XH
 8
 2
 LEDs
-LED_CREE-XHP35
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds--XHP35.pdf
-LED CREE XHP35
+LED_CREE-XH
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XHB.pdf
+LED CREE XH
 0
-6
-3
+8
+2
 LEDs
 LED_Cree-XHP35
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds--XHP35.pdf
@@ -45941,11 +46025,11 @@ LED Cree XHP35
 6
 3
 LEDs
-LED_CREE-XHP50_6V
-CREE XHP50, 6V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf 
-LED CREE XHP50
+LED_CREE-XHP35
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds--XHP35.pdf
+LED CREE XHP35
 0
-15
+6
 3
 LEDs
 LED_Cree-XHP50_6V
@@ -45955,9 +46039,9 @@ LED Cree XHP50
 17
 3
 LEDs
-LED_CREE-XHP50_12V
-CREE XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf 
-LED XHP50 CREE
+LED_CREE-XHP50_6V
+CREE XHP50, 6V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf 
+LED CREE XHP50
 0
 15
 3
@@ -45965,6 +46049,13 @@ LEDs
 LED_Cree-XHP50_12V
 Cree XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
 LED XHP50 Cree
+0
+15
+3
+LEDs
+LED_CREE-XHP50_12V
+CREE XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf 
+LED XHP50 CREE
 0
 15
 3
@@ -46032,16 +46123,16 @@ LED Cree XQ
 2
 2
 LEDs
-LED_CREE-XQ_HandSoldering
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
-LED CREE XQ
+LED_Cree-XQ_HandSoldering
+LED Cree-XQ handsoldering pads http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
+LED Cree XQ
 0
 2
 2
 LEDs
-LED_Cree-XQ_HandSoldering
-LED Cree-XQ handsoldering pads http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
-LED Cree XQ
+LED_CREE-XQ_HandSoldering
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
+LED CREE XQ
 0
 2
 2
@@ -47564,6 +47655,13 @@ RFM92_95_96_98
 0
 16
 16
+MKR1000
+STRIP-14-MODULI-A11
+
+
+0
+14
+14
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
