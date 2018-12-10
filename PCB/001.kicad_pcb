@@ -1,11 +1,11 @@
-(kicad_pcb (version 20171130) (host pcbnew 6.0.0-rc1-unknown-59b0f55~66~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 6.0.0-rc1-unknown-5b3202d~66~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
     (drawings 17)
     (tracks 0)
     (zones 0)
-    (modules 41)
+    (modules 42)
     (nets 1)
   )
 
@@ -931,11 +931,11 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical_SMD_Pin1Right (layer B.Cu) (tedit 5A19A41E) (tstamp 5BEE6F94)
-    (at 132.715 74.268496 270)
+    (at 133.2738 77.291096 270)
     (descr "surface-mounted straight socket strip, 1x14, 2.54mm pitch, single row, style 2 (pin 1 right) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated")
     (tags "Surface mounted socket strip SMD 1x14 2.54mm single row style2 pin1 right")
     (attr smd)
-    (fp_text reference REF** (at 0 19.38 270) (layer B.SilkS)
+    (fp_text reference REF** (at 5.690704 16.4338 270) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value PinSocket_1x14_P2.54mm_Vertical_SMD_Pin1Right (at 0 -19.38 270) (layer B.Fab) hide
@@ -1036,11 +1036,11 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical_SMD_Pin1Right (layer B.Cu) (tedit 5A19A41E) (tstamp 5BEE6BC0)
-    (at 132.715 94.588496 270)
+    (at 133.2738 97.611096 270)
     (descr "surface-mounted straight socket strip, 1x14, 2.54mm pitch, single row, style 2 (pin 1 right) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated")
     (tags "Surface mounted socket strip SMD 1x14 2.54mm single row style2 pin1 right")
     (attr smd)
-    (fp_text reference REF** (at 0 19.38 270) (layer B.SilkS)
+    (fp_text reference REF** (at -5.891696 16.5354 270) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value PinSocket_1x14_P2.54mm_Vertical_SMD_Pin1Right (at 0 -19.38 270) (layer B.Fab) hide
@@ -2121,7 +2121,7 @@
       (xy -2.942051 8.066427) (xy -2.942061 8.066418) (xy -2.941541 8.066393)) (layer F.Mask) (width 0.319088))
   )
 
-  (module ArduinoBadge:Edge.SilkS.02 (layer F.Cu) (tedit 5C001095) (tstamp 5C006E9D)
+  (module ArduinoBadge:Edge.SilkS.02 (layer F.Cu) (tedit 5C001095) (tstamp 5C0EF6AF)
     (at 133.35 111.125)
     (descr "Imported from Back.svg")
     (tags svg2mod)
@@ -6135,6 +6135,17 @@
       (xy -0.726583 -1.191168) (xy -0.609179 -1.255315) (xy -0.485979 -1.308063) (xy -0.357829 -1.348893)
       (xy -0.225572 -1.377294) (xy -0.090055 -1.392749) (xy 0.04788 -1.394752) (xy 0.187386 -1.382769)
       (xy 0.32762 -1.356294) (xy 0.334747 -1.354539)) (layer F.Mask) (width 0.38324))
+  )
+
+  (module ArduinoBadge:Hole_Big (layer F.Cu) (tedit 5C0E7F67) (tstamp 5C0EF153)
+    (at 133.35 68.2752)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Hole_Big (at 0 -0.5) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole roundrect (at 0 0) (size 15 7) (drill oval 14 6) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
   )
 
   (gr_circle (center 117.348 76.962) (end 118.618 76.962) (layer Dwgs.User) (width 0.15))
