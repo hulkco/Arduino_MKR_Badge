@@ -1,7 +1,42 @@
-15829133446356585
+15886339309442934
+apa-106
+APA-106-F8
+APA-106-F8
+APA 106 F8 RGB LED 8mm
+0
+4
+4
 ArduinoBadge
 Arduino.SilkS
 Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.Back.Only.SilkS.01
+Imported from Back_03.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.Back.Only.SilkS.02
+Imported from Back_03.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.Only.SilkS.01
+Imported from Back_03.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.Only.SilkS.02
+Imported from Back_03.svg
 svg2mod
 0
 0
@@ -16,6 +51,48 @@ svg2mod
 ArduinoBadge
 Edge.SilkS.02
 Imported from Back.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.SilkS.03
+Imported from Back_02.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.SilkS.04
+Imported from Back_03.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.SilkS.04.1
+Imported from Back_03.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.SilkS.04.2
+Imported from Back_03.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.SilkS.04.3
+Imported from Back_03.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.SilkS.04.4
+Imported from Back_03.svg
 svg2mod
 0
 0
@@ -58,6 +135,13 @@ svg2mod
 ArduinoBadge
 Fig.06.Cu.Mask
 Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Holder.Cu.Mask.01
+Imported from Holder_01.svg
 svg2mod
 0
 0
@@ -45990,13 +46074,6 @@ LED Cree PLCC-4
 4
 4
 LEDs
-LED_Cree-XB
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXBD.pdf
-LED Cree XB
-0
-5
-3
-LEDs
 LED_CREE-XB
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXBD.pdf
 LED CREE XB
@@ -46004,16 +46081,23 @@ LED CREE XB
 5
 3
 LEDs
-LED_Cree-XH
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XHB.pdf
-LED Cree XH
+LED_Cree-XB
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXBD.pdf
+LED Cree XB
 0
-8
-2
+5
+3
 LEDs
 LED_CREE-XH
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XHB.pdf
 LED CREE XH
+0
+8
+2
+LEDs
+LED_Cree-XH
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XHB.pdf
+LED Cree XH
 0
 8
 2
@@ -46046,13 +46130,6 @@ LED CREE XHP50
 15
 3
 LEDs
-LED_Cree-XHP50_12V
-Cree XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
-LED XHP50 Cree
-0
-15
-3
-LEDs
 LED_CREE-XHP50_12V
 CREE XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf 
 LED XHP50 CREE
@@ -46060,9 +46137,9 @@ LED XHP50 CREE
 15
 3
 LEDs
-LED_CREE-XHP70_6V
-CREE XHP70 LED, 6V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
-LED CREE XHP70
+LED_Cree-XHP50_12V
+Cree XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
+LED XHP50 Cree
 0
 15
 3
@@ -46074,8 +46151,8 @@ LED Cree XHP70
 17
 3
 LEDs
-LED_CREE-XHP70_12V
-CREE XHP70 LED, 12V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
+LED_CREE-XHP70_6V
+CREE XHP70 LED, 6V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
 LED CREE XHP70
 0
 15
@@ -46088,16 +46165,23 @@ LED Cree XHP70
 15
 3
 LEDs
-LED_CREE-XP
-LED CREE-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
-LED CREE XP
+LED_CREE-XHP70_12V
+CREE XHP70 LED, 12V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
+LED CREE XHP70
 0
-6
+15
 3
 LEDs
 LED_Cree-XP
 LED Cree-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
 LED Cree XP
+0
+6
+3
+LEDs
+LED_CREE-XP
+LED CREE-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
+LED CREE XP
 0
 6
 3
@@ -48397,6 +48481,181 @@ mounting hole 8.4mm m8
 0
 9
 1
+Nano-Play
+ALPS_EC12E24_encoder_incremental
+
+
+0
+5
+4
+Nano-Play
+ALP_RK09K111
+
+
+0
+5
+4
+Nano-Play
+Arduino_Nano
+
+
+0
+30
+30
+Nano-Play
+Barrel_Jack_Hembra_CLIFF_FC68148
+
+
+0
+3
+3
+Nano-Play
+CANAL_ELECTRONIC_DTSM-31N-B
+
+
+0
+2
+2
+Nano-Play
+C_0805
+Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
+capacitor 0805
+0
+2
+2
+Nano-Play
+C_Radial_D5_L11_P2
+Radial Electrolytic Capacitor 5mm x Length 11mm, Pitch 2mm
+Electrolytic Capacitor
+0
+2
+2
+Nano-Play
+DFN-10-1EP_3x3mm_Pitch0.5mm
+10-Lead Plastic Dual Flat, No Lead Package (MF) - 3x3x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)
+DFN 0.5
+0
+10
+10
+Nano-Play
+DO-214AC
+
+
+0
+2
+2
+Nano-Play
+Gnd-Via
+
+
+0
+1
+1
+Nano-Play
+LDR_TOKEN_PGM5_Series
+
+
+0
+2
+2
+Nano-Play
+LED_RGB_5mm_G_B_COM_R_Anodo_comun
+
+
+0
+4
+4
+Nano-Play
+logo_HackLabAl
+
+
+0
+0
+0
+Nano-Play
+LOUDITY_LD-BZPN-1705
+
+
+0
+2
+2
+Nano-Play
+Matriz_Led_7X5
+
+
+0
+12
+12
+Nano-Play
+osh-logo
+
+
+0
+0
+0
+Nano-Play
+Pin_Header_Straight_1x03
+Through hole pin header
+pin header
+0
+3
+3
+Nano-Play
+R_0805
+Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
+capacitor 0805
+0
+2
+2
+Nano-Play
+Socket_Strip_Straight_1x01
+Through hole socket strip
+socket strip
+0
+1
+1
+Nano-Play
+Socket_Strip_Straight_1x03
+Through hole socket strip
+socket strip
+0
+3
+3
+Nano-Play
+Socket_Strip_Straight_1x04
+Through hole socket strip
+socket strip
+0
+4
+4
+Nano-Play
+Socket_Strip_Straight_1x06
+Through hole socket strip
+socket strip
+0
+6
+6
+Nano-Play
+SOIC-16_3.9x9.9mm_Pitch1.27mm
+16-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+16
+16
+Nano-Play
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+Nano-Play
+TO-220_Neutral123_Vertical_LargePads
+TO-220, Neutral, Vertical, Large Pads,
+TO-220, Neutral, Vertical, Large Pads,
+0
+3
+3
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
