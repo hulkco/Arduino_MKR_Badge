@@ -1,4 +1,4 @@
-15886339309442934
+15867819361671906
 apa-106
 APA-106-F8
 APA-106-F8
@@ -6,188 +6,6 @@ APA 106 F8 RGB LED 8mm
 0
 4
 4
-ArduinoBadge
-Arduino.SilkS
-Imported from Figura_01.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Edge.Back.Only.SilkS.01
-Imported from Back_03.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Edge.Back.Only.SilkS.02
-Imported from Back_03.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Edge.Only.SilkS.01
-Imported from Back_03.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Edge.Only.SilkS.02
-Imported from Back_03.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Edge.SilkS.01
-Imported from Back.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Edge.SilkS.02
-Imported from Back.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Edge.SilkS.03
-Imported from Back_02.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Edge.SilkS.04
-Imported from Back_03.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Edge.SilkS.04.1
-Imported from Back_03.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Edge.SilkS.04.2
-Imported from Back_03.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Edge.SilkS.04.3
-Imported from Back_03.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Edge.SilkS.04.4
-Imported from Back_03.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Fig.01.Cu.Mask
-Imported from Figura_01.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Fig.02.Cu.Mask
-Imported from Figura_01.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Fig.03.Cu.Mask
-Imported from Figura_01.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Fig.04.Cu.Mask
-Imported from Figura_01.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Fig.05.Cu.Mask
-Imported from Figura_01.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Fig.06.Cu.Mask
-Imported from Figura_01.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Holder.Cu.Mask.01
-Imported from Holder_01.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Hole_Big
-
-
-0
-1
-1
-ArduinoBadge
-LED_PLCC-2
-LED PLCC-2 SMD package
-LED PLCC-2 SMD
-0
-2
-2
-ArduinoBadge
-logo.all.02
-Imported from logo.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Sun.Led.Mask
-Imported from Figura_01.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-Sun.Led.Mask_01
-Imported from Figura_01.svg
-svg2mod
-0
-0
-0
-ArduinoBadge
-SunLed_PLCC_Reverse-2
-LED PLCC-2 SMD package
-LED PLCC-2 SMD
-0
-2
-2
 Battery
 9VFemale
 
@@ -42552,6 +42370,27 @@ Filter 5
 0
 5
 5
+Firma
+GReynaga.CuMask3
+Imported from SVG/GReynaga.svg
+svg2mod
+0
+0
+0
+Firma
+greynaga6-2
+
+
+0
+0
+0
+Firma
+greynaga6-2-cooper
+
+
+0
+0
+0
 Fuse
 BladeFuse-Mini_8mm_Pitch
 car blade fuse mini
@@ -46130,16 +45969,16 @@ LED CREE XHP50
 15
 3
 LEDs
-LED_CREE-XHP50_12V
-CREE XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf 
-LED XHP50 CREE
+LED_Cree-XHP50_12V
+Cree XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
+LED XHP50 Cree
 0
 15
 3
 LEDs
-LED_Cree-XHP50_12V
-Cree XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
-LED XHP50 Cree
+LED_CREE-XHP50_12V
+CREE XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf 
+LED XHP50 CREE
 0
 15
 3
@@ -46172,16 +46011,16 @@ LED CREE XHP70
 15
 3
 LEDs
-LED_Cree-XP
-LED Cree-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
-LED Cree XP
+LED_CREE-XP
+LED CREE-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
+LED CREE XP
 0
 6
 3
 LEDs
-LED_CREE-XP
-LED CREE-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
-LED CREE XP
+LED_Cree-XP
+LED Cree-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
+LED Cree XP
 0
 6
 3
@@ -46551,6 +46390,13 @@ LED_Oval Oval  Oval size 5.2x3.8mm^2 2 pins
 2
 LEDs
 LED_PLCC-2
+LED PLCC-2 SMD package
+LED PLCC-2 SMD
+0
+2
+2
+LEDs
+LED_PLCC-2-2
 LED PLCC-2 SMD package
 LED PLCC-2 SMD
 0
@@ -47739,13 +47585,6 @@ RFM92_95_96_98
 0
 16
 16
-MKR1000
-STRIP-14-MODULI-A11
-
-
-0
-14
-14
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -48656,6 +48495,83 @@ TO-220, Neutral, Vertical, Large Pads,
 0
 3
 3
+neo-reverse
+C_1206_3216Metric_Pad1.39x1.80mm_HandSolder
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+neo-reverse
+LED-RGB-5050-SMD
+
+
+0
+4
+4
+neo-reverse
+Neo-reverse_SMD_4Pin
+surface-mounted straight pin header, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left)
+Surface mounted pin header SMD 1x04 2.54mm single row style1 pin1 left
+0
+4
+4
+neo-reverse
+Neo-reverse_SMD_Pin1Left
+surface-mounted straight socket strip, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
+Surface mounted socket strip SMD 1x04 2.54mm single row style1 pin1 left
+0
+2
+2
+neo-reverse
+Neopixel_Reverse_P2.54mm
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+8
+2
+neo-reverse
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+neo-reverse
+PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left
+surface-mounted straight pin header, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left)
+Surface mounted pin header SMD 1x04 2.54mm single row style1 pin1 left
+0
+4
+4
+neo-reverse
+PinHeader_Only_P2.54mm
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+neo-reverse
+PinSocket_1x02_P2.54mm_Neo_Reverse
+Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x04 2.54mm single row
+0
+2
+2
+neo-reverse
+PinSocket_1x04_P2.54mm_WeMos
+Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x04 2.54mm single row
+0
+4
+4
+neo-reverse
+Pin_half-02x02_P2.54mm
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+8
+2
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
