@@ -1,0 +1,19 @@
+Cmp-Mod V01 Created by PcbNew   date = sáb 26 ene 2019 11:49:08 MST
+
+BeginCmp
+TimeStamp = 5C4CA974
+Path = /4CD8ADE3670D80A9
+Reference = J5;
+ValeurCmp = DNP;
+IdModule  = MKR2UNO:1X14;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4CA9F6
+Path = /76D5A21E47C0003B
+Reference = J4;
+ValeurCmp = DNP;
+IdModule  = MKR2UNO:1X14;
+EndCmp
+
+EndListe
