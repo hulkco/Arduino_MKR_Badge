@@ -1,0 +1,985 @@
+EESchema Schematic File Version 4
+LIBS:001-cache
+EELAYER 29 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1025 950  975  950 
+Wire Wire Line
+	1025 1050 975  1050
+$Comp
+L Neo_Reverse:NeoReverse U1
+U 1 1 5C4ACF0D
+P 1325 1000
+F 0 "U1" H 1325 1275 50  0000 C CNN
+F 1 "NeoReverse" H 1325 1184 50  0000 C CNN
+F 2 "ArduinoBadge:Neo-reverse_SMD_4Pin" H 1325 1000 50  0001 C CNN
+F 3 "" H 1325 1000 50  0001 C CNN
+	1    1325 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5C4ADFA4
+P 10300 1000
+F 0 "#FLG0101" H 10300 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 10300 1173 50  0000 C CNN
+F 2 "" H 10300 1000 50  0001 C CNN
+F 3 "~" H 10300 1000 50  0001 C CNN
+	1    10300 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 1000 10300 1125
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5C4AECF0
+P 9000 1125
+F 0 "#FLG0102" H 9000 1200 50  0001 C CNN
+F 1 "PWR_FLAG" H 9000 1298 50  0000 C CNN
+F 2 "" H 9000 1125 50  0001 C CNN
+F 3 "~" H 9000 1125 50  0001 C CNN
+	1    9000 1125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9000 1125 9000 1000
+$Comp
+L power:GND #PWR0102
+U 1 1 5C4B11F4
+P 10300 1125
+F 0 "#PWR0102" H 10300 875 50  0001 C CNN
+F 1 "GND" H 10305 952 50  0000 C CNN
+F 2 "" H 10300 1125 50  0001 C CNN
+F 3 "" H 10300 1125 50  0001 C CNN
+	1    10300 1125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1175 1700 1050
+Wire Wire Line
+	1700 1050 1625 1050
+Wire Wire Line
+	975  825  975  950 
+$Comp
+L power:GND #PWR04
+U 1 1 5C4BE691
+P 1700 1175
+F 0 "#PWR04" H 1700 925 50  0001 C CNN
+F 1 "GND" H 1705 1002 50  0000 C CNN
+F 2 "" H 1700 1175 50  0001 C CNN
+F 3 "" H 1700 1175 50  0001 C CNN
+	1    1700 1175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1025 1650 975  1650
+Wire Wire Line
+	1025 1750 975  1750
+$Comp
+L Neo_Reverse:NeoReverse U2
+U 1 1 5C4BEE17
+P 1325 1700
+F 0 "U2" H 1325 1975 50  0000 C CNN
+F 1 "NeoReverse" H 1325 1884 50  0000 C CNN
+F 2 "ArduinoBadge:Neo-reverse_SMD_4Pin" H 1325 1700 50  0001 C CNN
+F 3 "" H 1325 1700 50  0001 C CNN
+	1    1325 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1875 1700 1750
+Wire Wire Line
+	1700 1750 1625 1750
+Wire Wire Line
+	975  1525 975  1650
+$Comp
+L power:GND #PWR05
+U 1 1 5C4BEE32
+P 1700 1875
+F 0 "#PWR05" H 1700 1625 50  0001 C CNN
+F 1 "GND" H 1705 1702 50  0000 C CNN
+F 2 "" H 1700 1875 50  0001 C CNN
+F 3 "" H 1700 1875 50  0001 C CNN
+	1    1700 1875
+	1    0    0    -1  
+$EndComp
+Text GLabel 1700 825  1    50   Input ~ 0
+P1
+Wire Wire Line
+	1700 825  1700 950 
+Wire Wire Line
+	1700 950  1625 950 
+Text GLabel 975  1875 3    50   Input ~ 0
+P1
+Wire Wire Line
+	975  1875 975  1750
+Wire Wire Line
+	1025 2450 975  2450
+Wire Wire Line
+	1025 2550 975  2550
+$Comp
+L Neo_Reverse:NeoReverse U3
+U 1 1 5C4CB9CB
+P 1325 2500
+F 0 "U3" H 1325 2775 50  0000 C CNN
+F 1 "NeoReverse" H 1325 2684 50  0000 C CNN
+F 2 "ArduinoBadge:Neo-reverse_SMD_4Pin" H 1325 2500 50  0001 C CNN
+F 3 "" H 1325 2500 50  0001 C CNN
+	1    1325 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2675 1700 2550
+Wire Wire Line
+	1700 2550 1625 2550
+Wire Wire Line
+	975  2325 975  2450
+$Comp
+L power:GND #PWR06
+U 1 1 5C4CB9E6
+P 1700 2675
+F 0 "#PWR06" H 1700 2425 50  0001 C CNN
+F 1 "GND" H 1705 2502 50  0000 C CNN
+F 2 "" H 1700 2675 50  0001 C CNN
+F 3 "" H 1700 2675 50  0001 C CNN
+	1    1700 2675
+	1    0    0    -1  
+$EndComp
+Text GLabel 1700 2325 1    50   Input ~ 0
+P3
+Wire Wire Line
+	1700 2325 1700 2450
+Wire Wire Line
+	1700 2450 1625 2450
+Wire Wire Line
+	1025 3125 975  3125
+Wire Wire Line
+	1025 3225 975  3225
+$Comp
+L Neo_Reverse:NeoReverse U4
+U 1 1 5C4D08FF
+P 1325 3175
+F 0 "U4" H 1325 3450 50  0000 C CNN
+F 1 "NeoReverse" H 1325 3359 50  0000 C CNN
+F 2 "ArduinoBadge:Neo-reverse_SMD_4Pin" H 1325 3175 50  0001 C CNN
+F 3 "" H 1325 3175 50  0001 C CNN
+	1    1325 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3350 1700 3225
+Wire Wire Line
+	1700 3225 1625 3225
+Wire Wire Line
+	975  3000 975  3125
+$Comp
+L power:GND #PWR07
+U 1 1 5C4D091A
+P 1700 3350
+F 0 "#PWR07" H 1700 3100 50  0001 C CNN
+F 1 "GND" H 1705 3177 50  0000 C CNN
+F 2 "" H 1700 3350 50  0001 C CNN
+F 3 "" H 1700 3350 50  0001 C CNN
+	1    1700 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 975  3350 3    50   Input ~ 0
+P3
+Wire Wire Line
+	975  3350 975  3225
+Wire Wire Line
+	2525 950  2475 950 
+Wire Wire Line
+	2525 1050 2475 1050
+$Comp
+L Neo_Reverse:NeoReverse U5
+U 1 1 5C4E30EF
+P 2825 1000
+F 0 "U5" H 2825 1275 50  0000 C CNN
+F 1 "NeoReverse" H 2825 1184 50  0000 C CNN
+F 2 "ArduinoBadge:Neo-reverse_SMD_4Pin" H 2825 1000 50  0001 C CNN
+F 3 "" H 2825 1000 50  0001 C CNN
+	1    2825 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1175 3200 1050
+Wire Wire Line
+	3200 1050 3125 1050
+Wire Wire Line
+	2475 825  2475 950 
+$Comp
+L power:GND #PWR0105
+U 1 1 5C4E310A
+P 3200 1175
+F 0 "#PWR0105" H 3200 925 50  0001 C CNN
+F 1 "GND" H 3205 1002 50  0000 C CNN
+F 2 "" H 3200 1175 50  0001 C CNN
+F 3 "" H 3200 1175 50  0001 C CNN
+	1    3200 1175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2525 1650 2475 1650
+Wire Wire Line
+	2525 1750 2475 1750
+$Comp
+L Neo_Reverse:NeoReverse U6
+U 1 1 5C4E312B
+P 2825 1700
+F 0 "U6" H 2825 1975 50  0000 C CNN
+F 1 "NeoReverse" H 2825 1884 50  0000 C CNN
+F 2 "ArduinoBadge:Neo-reverse_SMD_4Pin" H 2825 1700 50  0001 C CNN
+F 3 "" H 2825 1700 50  0001 C CNN
+	1    2825 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1875 3200 1750
+Wire Wire Line
+	3200 1750 3125 1750
+Wire Wire Line
+	2475 1525 2475 1650
+$Comp
+L power:GND #PWR0107
+U 1 1 5C4E3146
+P 3200 1875
+F 0 "#PWR0107" H 3200 1625 50  0001 C CNN
+F 1 "GND" H 3205 1702 50  0000 C CNN
+F 2 "" H 3200 1875 50  0001 C CNN
+F 3 "" H 3200 1875 50  0001 C CNN
+	1    3200 1875
+	1    0    0    -1  
+$EndComp
+Text GLabel 3200 825  1    50   Input ~ 0
+P5
+Wire Wire Line
+	3200 825  3200 950 
+Wire Wire Line
+	3200 950  3125 950 
+Text GLabel 2475 1875 3    50   Input ~ 0
+P5
+Wire Wire Line
+	2475 1875 2475 1750
+Wire Wire Line
+	2525 2450 2475 2450
+Wire Wire Line
+	2525 2550 2475 2550
+$Comp
+L Neo_Reverse:NeoReverse U7
+U 1 1 5C4E316F
+P 2825 2500
+F 0 "U7" H 2825 2775 50  0000 C CNN
+F 1 "NeoReverse" H 2825 2684 50  0000 C CNN
+F 2 "ArduinoBadge:Neo-reverse_SMD_4Pin" H 2825 2500 50  0001 C CNN
+F 3 "" H 2825 2500 50  0001 C CNN
+	1    2825 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2675 3200 2550
+Wire Wire Line
+	3200 2550 3125 2550
+Wire Wire Line
+	2475 2325 2475 2450
+$Comp
+L power:GND #PWR0109
+U 1 1 5C4E318A
+P 3200 2675
+F 0 "#PWR0109" H 3200 2425 50  0001 C CNN
+F 1 "GND" H 3205 2502 50  0000 C CNN
+F 2 "" H 3200 2675 50  0001 C CNN
+F 3 "" H 3200 2675 50  0001 C CNN
+	1    3200 2675
+	1    0    0    -1  
+$EndComp
+Text GLabel 3200 2325 1    50   Input ~ 0
+P7
+Wire Wire Line
+	3200 2325 3200 2450
+Wire Wire Line
+	3200 2450 3125 2450
+Wire Wire Line
+	2525 3125 2475 3125
+Wire Wire Line
+	2525 3225 2475 3225
+$Comp
+L Neo_Reverse:NeoReverse U8
+U 1 1 5C4E31AF
+P 2825 3175
+F 0 "U8" H 2825 3450 50  0000 C CNN
+F 1 "NeoReverse" H 2825 3359 50  0000 C CNN
+F 2 "ArduinoBadge:Neo-reverse_SMD_4Pin" H 2825 3175 50  0001 C CNN
+F 3 "" H 2825 3175 50  0001 C CNN
+	1    2825 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3350 3200 3225
+Wire Wire Line
+	3200 3225 3125 3225
+Wire Wire Line
+	2475 3000 2475 3125
+Wire Wire Line
+	3250 3125 3125 3125
+$Comp
+L power:GND #PWR0111
+U 1 1 5C4E31CA
+P 3200 3350
+F 0 "#PWR0111" H 3200 3100 50  0001 C CNN
+F 1 "GND" H 3205 3177 50  0000 C CNN
+F 2 "" H 3200 3350 50  0001 C CNN
+F 3 "" H 3200 3350 50  0001 C CNN
+	1    3200 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 2475 3350 3    50   Input ~ 0
+P7
+Wire Wire Line
+	2475 3350 2475 3225
+Text GLabel 1700 1550 1    50   Input ~ 0
+P2
+Wire Wire Line
+	1700 1650 1700 1550
+Wire Wire Line
+	1700 1650 1625 1650
+Text GLabel 975  2625 3    50   Input ~ 0
+P2
+Wire Wire Line
+	975  2625 975  2550
+Text GLabel 1700 3050 1    50   Input ~ 0
+P4
+Wire Wire Line
+	1700 3050 1700 3125
+Wire Wire Line
+	1700 3125 1625 3125
+Text GLabel 2475 1150 3    50   Input ~ 0
+P4
+Wire Wire Line
+	2475 1150 2475 1050
+Text GLabel 3200 1550 1    50   Input ~ 0
+P6
+Wire Wire Line
+	3200 1550 3200 1650
+Wire Wire Line
+	3200 1650 3125 1650
+Text GLabel 2475 2625 3    50   Input ~ 0
+P6
+Wire Wire Line
+	2475 2625 2475 2550
+$Comp
+L Connector_Generic:Conn_01x14 J17
+U 1 1 5C4D1F80
+P 4850 4150
+F 0 "J17" H 4800 4850 50  0000 L CNN
+F 1 "Conn_01x14" H 4930 4051 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical_SMD_Pin1Left" H 4850 4150 50  0001 C CNN
+F 3 "~" H 4850 4150 50  0001 C CNN
+	1    4850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x14 J18
+U 1 1 5C4D6F4B
+P 5650 4150
+F 0 "J18" H 5600 4850 50  0000 L CNN
+F 1 "Conn_01x14" H 5730 4051 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical_SMD_Pin1Left" H 5650 4150 50  0001 C CNN
+F 3 "~" H 5650 4150 50  0001 C CNN
+	1    5650 4150
+	-1   0    0    -1  
+$EndComp
+Wire Notes Line
+	4800 4975 5700 4975
+Wire Notes Line
+	5700 4975 5700 3100
+Wire Notes Line
+	5700 3100 4800 3100
+Wire Notes Line
+	4800 3100 4800 4975
+Wire Notes Line
+	5150 3100 5150 2975
+Wire Notes Line
+	5150 2975 5400 2975
+Wire Notes Line
+	5400 2975 5400 3100
+Wire Notes Line
+	4800 3250 4725 3250
+Wire Notes Line
+	4725 3250 4725 3375
+Wire Notes Line
+	4725 3375 4800 3375
+Wire Notes Line
+	5700 3250 5775 3250
+Wire Notes Line
+	5775 3250 5775 3375
+Wire Notes Line
+	5775 3375 5700 3375
+Wire Wire Line
+	4650 3550 4525 3550
+Wire Wire Line
+	4650 3650 4525 3650
+Wire Wire Line
+	4650 3750 4525 3750
+Wire Wire Line
+	4650 3850 4525 3850
+Wire Wire Line
+	4650 3950 4525 3950
+Wire Wire Line
+	4650 4050 4525 4050
+Wire Wire Line
+	4650 4150 4525 4150
+Wire Wire Line
+	4650 4250 4525 4250
+Wire Wire Line
+	4650 4350 4525 4350
+Wire Wire Line
+	4650 4450 4525 4450
+Wire Wire Line
+	4650 4550 4525 4550
+Wire Wire Line
+	4650 4650 4525 4650
+Wire Wire Line
+	4650 4750 4525 4750
+Wire Wire Line
+	4650 4850 4525 4850
+Wire Wire Line
+	5850 3550 5975 3550
+Wire Wire Line
+	5850 3650 5975 3650
+Wire Wire Line
+	5850 3950 5975 3950
+Wire Wire Line
+	5850 4050 5975 4050
+Wire Wire Line
+	5850 4150 5975 4150
+Wire Wire Line
+	5850 4250 5975 4250
+Wire Wire Line
+	5850 4350 5975 4350
+Wire Wire Line
+	5850 4450 5975 4450
+Wire Wire Line
+	5850 4550 5975 4550
+Wire Wire Line
+	5850 4650 5975 4650
+Wire Wire Line
+	5850 4750 5975 4750
+Wire Wire Line
+	5850 4850 5975 4850
+Text Label 4525 3550 2    50   ~ 0
+AREF
+Text Label 4525 3650 2    50   ~ 0
+DAC0-A0
+Text Label 4525 3750 2    50   ~ 0
+A1
+Text Label 4525 3850 2    50   ~ 0
+A2
+Text Label 4525 3950 2    50   ~ 0
+A3
+Text Label 4525 4050 2    50   ~ 0
+A4
+Text Label 4525 4150 2    50   ~ 0
+A5
+Text Label 4525 4250 2    50   ~ 0
+A6
+Text Label 4525 4450 2    50   ~ 0
+1
+Text Label 4525 4550 2    50   ~ 0
+~2
+Text Label 4525 4650 2    50   ~ 0
+~3
+Text Label 4525 4750 2    50   ~ 0
+~4
+Text Label 4525 4850 2    50   ~ 0
+~5
+Text Label 5975 4850 0    50   ~ 0
+6
+Text Label 5975 4750 0    50   ~ 0
+7
+Text Label 5975 4650 0    50   ~ 0
+8-MOSI
+Text Label 5975 4550 0    50   ~ 0
+9-SCK
+Text Label 5975 4450 0    50   ~ 0
+10-MISO
+Text Label 5975 4350 0    50   ~ 0
+11-SDA
+Text Label 5975 4250 0    50   ~ 0
+12-SCL
+Text Label 5975 4150 0    50   ~ 0
+13->RX
+Text Label 5975 4050 0    50   ~ 0
+14<-TX
+Text Label 5975 3950 0    50   ~ 0
+RESET
+Wire Wire Line
+	5850 3750 5975 3750
+Wire Wire Line
+	5850 3850 5900 3850
+Wire Wire Line
+	5900 3850 5900 4975
+$Comp
+L power:GND #PWR08
+U 1 1 5C5543CF
+P 5900 4975
+F 0 "#PWR08" H 5900 4725 50  0001 C CNN
+F 1 "GND" H 5905 4802 50  0000 C CNN
+F 2 "" H 5900 4975 50  0001 C CNN
+F 3 "" H 5900 4975 50  0001 C CNN
+	1    5900 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR011
+U 1 1 5C55526E
+P 5975 3750
+F 0 "#PWR011" H 5975 3600 50  0001 C CNN
+F 1 "+3V3" V 5990 3878 50  0000 L CNN
+F 2 "" H 5975 3750 50  0001 C CNN
+F 3 "" H 5975 3750 50  0001 C CNN
+	1    5975 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VIN #PWR010
+U 1 1 5C55DEFA
+P 5975 3650
+F 0 "#PWR010" H 5975 3550 50  0001 C CNN
+F 1 "VIN" V 5990 3778 50  0000 L CNN
+F 2 "" H 5975 3650 50  0001 C CNN
+F 3 "" H 5975 3650 50  0001 C CNN
+	1    5975 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR09
+U 1 1 5C55F2A9
+P 5975 3550
+F 0 "#PWR09" H 5975 3400 50  0001 C CNN
+F 1 "+5V" V 5990 3678 50  0000 L CNN
+F 2 "" H 5975 3550 50  0001 C CNN
+F 3 "" H 5975 3550 50  0001 C CNN
+	1    5975 3550
+	0    1    1    0   
+$EndComp
+Text Label 700  1200 2    50   ~ 0
+~2
+Wire Wire Line
+	700  1200 975  1200
+Wire Wire Line
+	975  1200 975  1050
+$Comp
+L power:+3V3 #PWR012
+U 1 1 5C564BAC
+P 975 825
+F 0 "#PWR012" H 975 675 50  0001 C CNN
+F 1 "+3V3" H 990 998 50  0000 C CNN
+F 2 "" H 975 825 50  0001 C CNN
+F 3 "" H 975 825 50  0001 C CNN
+	1    975  825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR015
+U 1 1 5C566CB2
+P 9850 1000
+F 0 "#PWR015" H 9850 850 50  0001 C CNN
+F 1 "+3V3" V 9865 1128 50  0000 L CNN
+F 2 "" H 9850 1000 50  0001 C CNN
+F 3 "" H 9850 1000 50  0001 C CNN
+	1    9850 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VIN #PWR014
+U 1 1 5C566CBC
+P 9425 1000
+F 0 "#PWR014" H 9425 900 50  0001 C CNN
+F 1 "VIN" V 9440 1128 50  0000 L CNN
+F 2 "" H 9425 1000 50  0001 C CNN
+F 3 "" H 9425 1000 50  0001 C CNN
+	1    9425 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR013
+U 1 1 5C566CC6
+P 9000 1000
+F 0 "#PWR013" H 9000 850 50  0001 C CNN
+F 1 "+5V" V 9015 1128 50  0000 L CNN
+F 2 "" H 9000 1000 50  0001 C CNN
+F 3 "" H 9000 1000 50  0001 C CNN
+	1    9000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5C5747BF
+P 9425 1125
+F 0 "#FLG01" H 9425 1200 50  0001 C CNN
+F 1 "PWR_FLAG" H 9425 1298 50  0000 C CNN
+F 2 "" H 9425 1125 50  0001 C CNN
+F 3 "~" H 9425 1125 50  0001 C CNN
+	1    9425 1125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9425 1125 9425 1000
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5C588053
+P 9850 1125
+F 0 "#FLG02" H 9850 1200 50  0001 C CNN
+F 1 "PWR_FLAG" H 9850 1298 50  0000 C CNN
+F 2 "" H 9850 1125 50  0001 C CNN
+F 3 "~" H 9850 1125 50  0001 C CNN
+	1    9850 1125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9850 1125 9850 1000
+NoConn ~ 3250 3125
+$Comp
+L power:+3V3 #PWR016
+U 1 1 5C4D4046
+P 2475 825
+F 0 "#PWR016" H 2475 675 50  0001 C CNN
+F 1 "+3V3" H 2490 998 50  0000 C CNN
+F 2 "" H 2475 825 50  0001 C CNN
+F 3 "" H 2475 825 50  0001 C CNN
+	1    2475 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR017
+U 1 1 5C4D488B
+P 2475 1525
+F 0 "#PWR017" H 2475 1375 50  0001 C CNN
+F 1 "+3V3" H 2490 1698 50  0000 C CNN
+F 2 "" H 2475 1525 50  0001 C CNN
+F 3 "" H 2475 1525 50  0001 C CNN
+	1    2475 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR01
+U 1 1 5C4D531F
+P 975 1525
+F 0 "#PWR01" H 975 1375 50  0001 C CNN
+F 1 "+3V3" H 990 1698 50  0000 C CNN
+F 2 "" H 975 1525 50  0001 C CNN
+F 3 "" H 975 1525 50  0001 C CNN
+	1    975  1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR018
+U 1 1 5C4D5C12
+P 2475 2325
+F 0 "#PWR018" H 2475 2175 50  0001 C CNN
+F 1 "+3V3" H 2490 2498 50  0000 C CNN
+F 2 "" H 2475 2325 50  0001 C CNN
+F 3 "" H 2475 2325 50  0001 C CNN
+	1    2475 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR019
+U 1 1 5C4D6F7E
+P 2475 3000
+F 0 "#PWR019" H 2475 2850 50  0001 C CNN
+F 1 "+3V3" H 2490 3173 50  0000 C CNN
+F 2 "" H 2475 3000 50  0001 C CNN
+F 3 "" H 2475 3000 50  0001 C CNN
+	1    2475 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR03
+U 1 1 5C4D7635
+P 975 3000
+F 0 "#PWR03" H 975 2850 50  0001 C CNN
+F 1 "+3V3" H 990 3173 50  0000 C CNN
+F 2 "" H 975 3000 50  0001 C CNN
+F 3 "" H 975 3000 50  0001 C CNN
+	1    975  3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR02
+U 1 1 5C4D886D
+P 975 2325
+F 0 "#PWR02" H 975 2175 50  0001 C CNN
+F 1 "+3V3" H 990 2498 50  0000 C CNN
+F 2 "" H 975 2325 50  0001 C CNN
+F 3 "" H 975 2325 50  0001 C CNN
+	1    975  2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:EdgeCuts U9
+U 1 1 5C4F9F4F
+P 850 4100
+F 0 "U9" H 978 4146 50  0000 L CNN
+F 1 "EdgeCuts" H 978 4055 50  0000 L CNN
+F 2 "ArduinoBadge:Edge.SilkS.04.4" H 850 4100 50  0001 C CNN
+F 3 "" H 850 4100 50  0001 C CNN
+	1    850  4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Border.F U10
+U 1 1 5C4FA340
+P 850 4450
+F 0 "U10" H 978 4496 50  0000 L CNN
+F 1 "Border.F" H 978 4405 50  0000 L CNN
+F 2 "ArduinoBadge:Edge.Only.SilkS.02" H 850 4450 50  0001 C CNN
+F 3 "" H 850 4450 50  0001 C CNN
+	1    850  4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Border.B U11
+U 1 1 5C4FAB26
+P 850 4800
+F 0 "U11" H 978 4846 50  0000 L CNN
+F 1 "Border.B" H 978 4755 50  0000 L CNN
+F 2 "ArduinoBadge:Edge.Back.Only.SilkS.02" H 850 4800 50  0001 C CNN
+F 3 "" H 850 4800 50  0001 C CNN
+	1    850  4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Hole.Cu.F U12
+U 1 1 5C4FBE5C
+P 850 5075
+F 0 "U12" H 928 5121 50  0000 L CNN
+F 1 "Hole.Cu.F" H 928 5030 50  0000 L CNN
+F 2 "ArduinoBadge:Holder.Cu.Mask.01" H 850 5075 50  0001 C CNN
+F 3 "" H 850 5075 50  0001 C CNN
+	1    850  5075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Hole.Cu.B U13
+U 1 1 5C4FC538
+P 850 5300
+F 0 "U13" H 928 5346 50  0000 L CNN
+F 1 "Hole.Cu.B" H 928 5255 50  0000 L CNN
+F 2 "ArduinoBadge:Holder.B.Cu.Mask.01" H 850 5300 50  0001 C CNN
+F 3 "" H 850 5300 50  0001 C CNN
+	1    850  5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Arduino.Cu.Out U14
+U 1 1 5C4FCB38
+P 1700 4100
+F 0 "U14" H 1828 4146 50  0000 L CNN
+F 1 "Arduino.Cu.Out" H 1828 4055 50  0000 L CNN
+F 2 "ArduinoBadge:Fig.04.Cu.Mask" H 1700 4100 50  0001 C CNN
+F 3 "" H 1700 4100 50  0001 C CNN
+	1    1700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Arduino.Cu.In U15
+U 1 1 5C4FD1C3
+P 1700 4450
+F 0 "U15" H 1828 4496 50  0000 L CNN
+F 1 "Arduino.Cu.In" H 1828 4405 50  0000 L CNN
+F 2 "ArduinoBadge:Fig.05.Cu.Mask" H 1700 4450 50  0001 C CNN
+F 3 "" H 1700 4450 50  0001 C CNN
+	1    1700 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Arduino.Cu.+.- U16
+U 1 1 5C501127
+P 1700 4800
+F 0 "U16" H 1828 4846 50  0000 L CNN
+F 1 "Arduino.Cu.+.-" H 1828 4755 50  0000 L CNN
+F 2 "ArduinoBadge:Fig.06.Cu.Mask" H 1700 4800 50  0001 C CNN
+F 3 "" H 1700 4800 50  0001 C CNN
+	1    1700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Arduino.Icon.01 U17
+U 1 1 5C501D90
+P 1700 5125
+F 0 "U17" H 1840 5171 50  0000 L CNN
+F 1 "Arduino.Icon.01" H 1840 5080 50  0000 L CNN
+F 2 "ArduinoBadge:Fig.01.Cu.Mask" H 1700 5125 50  0001 C CNN
+F 3 "" H 1700 5125 50  0001 C CNN
+	1    1700 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Arduino.Icon.02 U18
+U 1 1 5C502976
+P 1700 5425
+F 0 "U18" H 1840 5471 50  0000 L CNN
+F 1 "Arduino.Icon.02" H 1840 5380 50  0000 L CNN
+F 2 "ArduinoBadge:Fig.02.Cu.Mask" H 1700 5425 50  0001 C CNN
+F 3 "" H 1700 5425 50  0001 C CNN
+	1    1700 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Arduino.Icon.02 U20
+U 1 1 5C50FB22
+P 1700 6025
+F 0 "U20" H 1840 6071 50  0000 L CNN
+F 1 "Arduino.Icon.02" H 1840 5980 50  0000 L CNN
+F 2 "ArduinoBadge:Fig.02.Cu.Mask" H 1700 6025 50  0001 C CNN
+F 3 "" H 1700 6025 50  0001 C CNN
+	1    1700 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Arduino.Icon.03 U23
+U 1 1 5C512F70
+P 1700 6925
+F 0 "U23" H 1840 6971 50  0000 L CNN
+F 1 "Arduino.Icon.03" H 1840 6880 50  0000 L CNN
+F 2 "ArduinoBadge:Fig.03.Cu.Mask" H 1700 6925 50  0001 C CNN
+F 3 "" H 1700 6925 50  0001 C CNN
+	1    1700 6925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Arduino.Icon.01 U19
+U 1 1 5C51D195
+P 1700 5725
+F 0 "U19" H 1840 5771 50  0000 L CNN
+F 1 "Arduino.Icon.01" H 1840 5680 50  0000 L CNN
+F 2 "ArduinoBadge:Fig.01.Cu.Mask" H 1700 5725 50  0001 C CNN
+F 3 "" H 1700 5725 50  0001 C CNN
+	1    1700 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Arduino.Icon.01 U21
+U 1 1 5C51D854
+P 1700 6325
+F 0 "U21" H 1840 6371 50  0000 L CNN
+F 1 "Arduino.Icon.01" H 1840 6280 50  0000 L CNN
+F 2 "ArduinoBadge:Fig.01.Cu.Mask" H 1700 6325 50  0001 C CNN
+F 3 "" H 1700 6325 50  0001 C CNN
+	1    1700 6325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Arduino.Icon.02 U22
+U 1 1 5C51ED38
+P 1700 6625
+F 0 "U22" H 1840 6671 50  0000 L CNN
+F 1 "Arduino.Icon.02" H 1840 6580 50  0000 L CNN
+F 2 "ArduinoBadge:Fig.02.Cu.Mask" H 1700 6625 50  0001 C CNN
+F 3 "" H 1700 6625 50  0001 C CNN
+	1    1700 6625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Mask.Led.F U24
+U 1 1 5C5AF691
+P 850 5525
+F 0 "U24" H 928 5571 50  0000 L CNN
+F 1 "Mask.Led.F" H 928 5480 50  0000 L CNN
+F 2 "ArduinoBadge:Neo-reverse_Mask" H 850 5525 50  0001 C CNN
+F 3 "" H 850 5525 50  0001 C CNN
+	1    850  5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Mask.Led.B U25
+U 1 1 5C5B0250
+P 850 5725
+F 0 "U25" H 928 5771 50  0000 L CNN
+F 1 "Mask.Led.B" H 928 5680 50  0000 L CNN
+F 2 "ArduinoBadge:Neo-reverse_Mask" H 850 5725 50  0001 C CNN
+F 3 "" H 850 5725 50  0001 C CNN
+	1    850  5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Mask.Led.F U?
+U 1 1 5C5B2A3E
+P 850 5925
+F 0 "U?" H 928 5971 50  0000 L CNN
+F 1 "Mask.Led.F" H 928 5880 50  0000 L CNN
+F 2 "ArduinoBadge:Neo-reverse_Mask" H 850 5925 50  0001 C CNN
+F 3 "" H 850 5925 50  0001 C CNN
+	1    850  5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Mask.Led.B U?
+U 1 1 5C5B2A48
+P 850 6125
+F 0 "U?" H 928 6171 50  0000 L CNN
+F 1 "Mask.Led.B" H 928 6080 50  0000 L CNN
+F 2 "ArduinoBadge:Neo-reverse_Mask" H 850 6125 50  0001 C CNN
+F 3 "" H 850 6125 50  0001 C CNN
+	1    850  6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Mask.Led.F U?
+U 1 1 5C5B5BAE
+P 850 6350
+F 0 "U?" H 928 6396 50  0000 L CNN
+F 1 "Mask.Led.F" H 928 6305 50  0000 L CNN
+F 2 "ArduinoBadge:Neo-reverse_Mask" H 850 6350 50  0001 C CNN
+F 3 "" H 850 6350 50  0001 C CNN
+	1    850  6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Mask.Led.B U?
+U 1 1 5C5B5BB8
+P 850 6550
+F 0 "U?" H 928 6596 50  0000 L CNN
+F 1 "Mask.Led.B" H 928 6505 50  0000 L CNN
+F 2 "ArduinoBadge:Neo-reverse_Mask" H 850 6550 50  0001 C CNN
+F 3 "" H 850 6550 50  0001 C CNN
+	1    850  6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Mask.Led.F U?
+U 1 1 5C5B5BC2
+P 850 6750
+F 0 "U?" H 928 6796 50  0000 L CNN
+F 1 "Mask.Led.F" H 928 6705 50  0000 L CNN
+F 2 "ArduinoBadge:Neo-reverse_Mask" H 850 6750 50  0001 C CNN
+F 3 "" H 850 6750 50  0001 C CNN
+	1    850  6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Neo_Reverse:Mask.Led.B U?
+U 1 1 5C5B5BCC
+P 850 6950
+F 0 "U?" H 928 6996 50  0000 L CNN
+F 1 "Mask.Led.B" H 928 6905 50  0000 L CNN
+F 2 "ArduinoBadge:Neo-reverse_Mask" H 850 6950 50  0001 C CNN
+F 3 "" H 850 6950 50  0001 C CNN
+	1    850  6950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

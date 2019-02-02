@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Neo_Reverse)(type Legacy)(uri ${KIPRJMOD}/Neo_Reverse.lib)(options "")(descr ""))
+)

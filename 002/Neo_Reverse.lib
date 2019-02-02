@@ -1,0 +1,197 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Arduino.Cu.+.-
+#
+DEF Arduino.Cu.+.- U 0 40 Y Y 1 F N
+F0 "U" 0 150 50 H V C CNN
+F1 "Arduino.Cu.+.-" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 71 0 1 0 F
+S -100 100 100 -100 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# Arduino.Cu.In
+#
+DEF Arduino.Cu.In U 0 40 Y Y 1 F N
+F0 "U" 0 150 50 H V C CNN
+F1 "Arduino.Cu.In" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 71 0 1 0 f
+S -100 100 100 -100 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# Arduino.Cu.Out
+#
+DEF Arduino.Cu.Out U 0 40 Y Y 1 F N
+F0 "U" 0 150 50 H V C CNN
+F1 "Arduino.Cu.Out" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 100 100 -100 0 1 0 N
+P 2 0 1 0 -50 -50 50 -50 N
+P 2 0 1 0 -50 50 50 50 N
+ENDDRAW
+ENDDEF
+#
+# Arduino.Icon.01
+#
+DEF Arduino.Icon.01 U 0 40 Y Y 1 F N
+F0 "U" 0 150 50 H V C CNN
+F1 "Arduino.Icon.01" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 112 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# Arduino.Icon.02
+#
+DEF Arduino.Icon.02 U 0 40 Y Y 1 F N
+F0 "U" 0 150 50 H V C CNN
+F1 "Arduino.Icon.02" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 71 0 1 0 N
+C 0 0 112 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# Arduino.Icon.03
+#
+DEF Arduino.Icon.03 U 0 40 Y Y 1 F N
+F0 "U" 0 150 50 H V C CNN
+F1 "Arduino.Icon.03" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 71 0 1 0 N
+C 0 0 112 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+# Border.B
+#
+DEF Border.B U 0 40 Y Y 1 F N
+F0 "U" 0 150 50 H V C CNN
+F1 "Border.B" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 100 100 -100 0 1 0 N
+S -50 50 50 -50 0 1 0 F
+ENDDRAW
+ENDDEF
+#
+# Border.F
+#
+DEF Border.F U 0 40 Y Y 1 F N
+F0 "U" 0 150 50 H V C CNN
+F1 "Border.F" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 100 100 -100 0 1 0 N
+S -50 50 50 -50 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+# EdgeCuts
+#
+DEF EdgeCuts U 0 40 Y Y 1 F N
+F0 "U" 0 150 50 H V C CNN
+F1 "EdgeCuts" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 100 100 -100 0 1 0 N
+S -50 50 50 -50 0 1 0 N
+P 2 0 1 0 -100 -100 -50 -50 N
+P 2 0 1 0 -50 50 -100 100 N
+P 2 0 1 0 50 50 100 100 N
+P 3 0 1 0 100 100 100 -100 50 -50 N
+ENDDRAW
+ENDDEF
+#
+# Hole.Cu.B
+#
+DEF Hole.Cu.B U 0 40 Y Y 1 F N
+F0 "U" 0 150 50 H V C CNN
+F1 "Hole.Cu.B" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 50 50 -50 0 1 0 N
+P 2 0 1 0 50 50 50 -50 N
+P 3 0 1 0 50 50 0 0 50 -50 f
+ENDDRAW
+ENDDEF
+#
+# Hole.Cu.F
+#
+DEF Hole.Cu.F U 0 40 Y Y 1 F N
+F0 "U" 0 150 50 H V C CNN
+F1 "Hole.Cu.F" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 50 50 -50 0 1 0 N
+P 4 0 1 0 -50 50 0 0 -50 -50 -50 50 f
+ENDDRAW
+ENDDEF
+#
+# Mask.Led.B
+#
+DEF Mask.Led.B U 0 40 Y Y 1 F N
+F0 "U" 0 150 50 H V C CNN
+F1 "Mask.Led.B" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 0 50 -50 0 1 0 F
+S -50 50 50 -50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# Mask.Led.F
+#
+DEF Mask.Led.F U 0 40 Y Y 1 F N
+F0 "U" 0 150 50 H V C CNN
+F1 "Mask.Led.F" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 50 50 -50 0 1 0 N
+S -50 50 50 0 0 1 0 F
+ENDDRAW
+ENDDEF
+#
+# NeoReverse
+#
+DEF NeoReverse U 0 40 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "NeoReverse" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -200 100 -200 -100 N
+P 2 0 1 0 -200 100 200 100 N
+P 2 0 1 0 200 -100 -200 -100 N
+P 2 0 1 0 200 100 200 -100 N
+X VCC 1 -300 50 100 R 50 50 1 1 W
+X IN 2 -300 -50 100 R 50 50 1 1 P
+X GND 3 300 -50 100 L 50 50 1 1 W
+X OUT 4 300 50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
