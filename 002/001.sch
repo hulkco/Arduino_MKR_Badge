@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 EESchema Schematic File Version 4
 LIBS:001-cache
 EELAYER 29 0
+=======
+EESchema Schematic File Version 2
+LIBS:power
+EELAYER 25 0
+>>>>>>> master
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -14,6 +20,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+<<<<<<< HEAD
 Wire Wire Line
 	1025 950  975  950 
 Wire Wire Line
@@ -982,4 +989,6 @@ F 3 "" H 850 6950 50  0001 C CNN
 	1    850  6950
 	1    0    0    -1  
 $EndComp
+=======
+>>>>>>> master
 $EndSCHEMATC

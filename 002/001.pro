@@ -1,9 +1,35 @@
+<<<<<<< HEAD
 update=jue 24 ene 2019 19:22:16 MST
+=======
+update=Tue 11 Oct 2016 05:25:07 PM PDT
+>>>>>>> master
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
+<<<<<<< HEAD
+=======
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=
+PadDrill=0.600000000000
+PadDrillOvalY=0.600000000000
+PadSizeH=1.500000000000
+PadSizeV=1.500000000000
+PcbTextSizeV=1.016000000000
+PcbTextSizeH=1.016000000000
+PcbTextThickness=0.152400000000
+ModuleTextSizeV=1.016000000000
+ModuleTextSizeH=1.016000000000
+ModuleTextSizeThickness=0.152400000000
+SolderMaskClearance=0.003000000000
+SolderMaskMinWidth=0.004000000000
+DrawSegmentWidth=0.152400000000
+BoardOutlineThickness=0.152400000000
+ModuleOutlineThickness=0.152400000000
+>>>>>>> master
 [eeschema]
 version=1
 LibDir=
@@ -20,6 +46,7 @@ SpiceUseNetNumbers=0
 LabSize=50
 [general]
 version=1
+<<<<<<< HEAD
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -78,3 +105,5 @@ SolderMaskClearance=0.07619999999999999
 SolderMaskMinWidth=0.1016
 SolderPasteClearance=-0.07619999999999999
 SolderPasteRatio=0
+=======
+>>>>>>> master
