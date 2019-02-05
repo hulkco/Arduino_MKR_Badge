@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name Neo_Reverse)(type Legacy)(uri ${KIPRJMOD}/Neo_Reverse.lib)(options "")(descr ""))
   (lib (name 001-rescue)(type Legacy)(uri ${KIPRJMOD}/001-rescue.lib)(options "")(descr ""))
+  (lib (name Mkr_Badge)(type Legacy)(uri ${KIPRJMOD}/Mkr_Badge.lib)(options "")(descr ""))
 )

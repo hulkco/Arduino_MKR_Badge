@@ -1,8 +1,239 @@
-15867819361671906
+15926672978659506
 apa-106
 APA-106-F8
 APA-106-F8
 APA 106 F8 RGB LED 8mm
+0
+4
+4
+ArduinoBadge
+2019.01
+Imported from Back_2019.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Arduino.SilkS
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.Back.Only.SilkS.01
+Imported from Back_03.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.Back.Only.SilkS.02
+Imported from Back_03.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.Only.SilkS.01
+Imported from Back_03.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.Only.SilkS.02
+Imported from Back_03.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.SilkS.01
+Imported from Back.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.SilkS.02
+Imported from Back.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.SilkS.03
+Imported from Back_02.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.SilkS.04
+Imported from Back_03.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.SilkS.04.1
+Imported from Back_03.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.SilkS.04.2
+Imported from Back_03.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.SilkS.04.3
+Imported from Back_03.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Edge.SilkS.04.4
+Imported from Back_03.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Fig.01.Cu.Mask
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Fig.02.Cu.Mask
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Fig.03.Cu.Mask
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Fig.04.Cu.Mask
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Fig.05.Cu.Mask
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Fig.06.Cu.Mask
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Holder.B.Cu.Mask.01
+Imported from Holder_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Holder.Cu.Mask.01
+Imported from Holder_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Hole_Big
+
+
+0
+1
+1
+ArduinoBadge
+LED_PLCC-2
+LED PLCC-2 SMD package
+LED PLCC-2 SMD
+0
+2
+2
+ArduinoBadge
+logo.all.02
+Imported from logo.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Neo-reverse_Mask
+
+
+0
+1
+0
+ArduinoBadge
+Neo-reverse_SMD_4Pin
+surface-mounted straight pin header, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left)
+Surface mounted pin header SMD 1x04 2.54mm single row style1 pin1 left
+0
+4
+4
+ArduinoBadge
+PinSocket_1x14_P2.54mm_Vertical_SMD_Pin1Right
+surface-mounted straight socket strip, 1x14, 2.54mm pitch, single row, style 2 (pin 1 right) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
+Surface mounted socket strip SMD 1x14 2.54mm single row style2 pin1 right
+0
+14
+14
+ArduinoBadge
+Sun.Led.Mask
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+Sun.Led.Mask_01
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+ArduinoBadge
+SunLed_PLCC_Reverse-2
+LED PLCC-2 SMD package
+LED PLCC-2 SMD
+0
+2
+2
+base
+Neo-reverse_Mask
+
+
+0
+1
+0
+base
+Neo-reverse_SMD_4Pin
+surface-mounted straight pin header, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left)
+Surface mounted pin header SMD 1x04 2.54mm single row style1 pin1 left
 0
 4
 4
@@ -45941,16 +46172,16 @@ LED Cree XH
 8
 2
 LEDs
-LED_Cree-XHP35
+LED_CREE-XHP35
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds--XHP35.pdf
-LED Cree XHP35
+LED CREE XHP35
 0
 6
 3
 LEDs
-LED_CREE-XHP35
+LED_Cree-XHP35
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds--XHP35.pdf
-LED CREE XHP35
+LED Cree XHP35
 0
 6
 3
@@ -45983,6 +46214,13 @@ LED XHP50 CREE
 15
 3
 LEDs
+LED_CREE-XHP70_6V
+CREE XHP70 LED, 6V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
+LED CREE XHP70
+0
+15
+3
+LEDs
 LED_Cree-XHP70_6V
 Cree XHP70 LED, 6V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
 LED Cree XHP70
@@ -45990,8 +46228,8 @@ LED Cree XHP70
 17
 3
 LEDs
-LED_CREE-XHP70_6V
-CREE XHP70 LED, 6V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
+LED_CREE-XHP70_12V
+CREE XHP70 LED, 12V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
 LED CREE XHP70
 0
 15
@@ -46004,23 +46242,16 @@ LED Cree XHP70
 15
 3
 LEDs
-LED_CREE-XHP70_12V
-CREE XHP70 LED, 12V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
-LED CREE XHP70
+LED_Cree-XP
+LED Cree-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
+LED Cree XP
 0
-15
+6
 3
 LEDs
 LED_CREE-XP
 LED CREE-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
 LED CREE XP
-0
-6
-3
-LEDs
-LED_Cree-XP
-LED Cree-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
-LED Cree XP
 0
 6
 3
@@ -46032,16 +46263,16 @@ LED Cree XP-G
 6
 3
 LEDs
-LED_CREE-XQ
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
-LED CREE XQ
+LED_Cree-XQ
+LED Cree-XQ http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
+LED Cree XQ
 0
 2
 2
 LEDs
-LED_Cree-XQ
-LED Cree-XQ http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
-LED Cree XQ
+LED_CREE-XQ
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
+LED CREE XQ
 0
 2
 2
@@ -46598,6 +46829,27 @@ Matriz_Led_7X5
 0
 12
 12
+LEDs
+Sun.Led.Mask
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+LEDs
+Sun.Led.Mask_01
+Imported from Figura_01.svg
+svg2mod
+0
+0
+0
+LEDs
+SunLed_PLCC_Reverse-2
+LED PLCC-2 SMD package
+LED PLCC-2 SMD
+0
+2
+2
 LED_SMD
 LED-L1T2_LUMILEDS
 http://www.lumileds.com/uploads/438/DS133-pdf
@@ -48510,6 +48762,13 @@ LED-RGB-5050-SMD
 4
 4
 neo-reverse
+Neo-reverse_Mask
+
+
+0
+1
+0
+neo-reverse
 Neo-reverse_SMD_4Pin
 surface-mounted straight pin header, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left)
 Surface mounted pin header SMD 1x04 2.54mm single row style1 pin1 left
@@ -48558,6 +48817,13 @@ Through hole socket strip THT 1x04 2.54mm single row
 0
 2
 2
+neo-reverse
+PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left
+surface-mounted straight socket strip, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
+Surface mounted socket strip SMD 1x04 2.54mm single row style1 pin1 left
+0
+4
+4
 neo-reverse
 PinSocket_1x04_P2.54mm_WeMos
 Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated

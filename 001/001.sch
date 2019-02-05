@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x02_Female J2
+L 001-rescue:Conn_01x02_Female-Connector J2
 U 1 1 5C4A7885
 P 2250 2250
 F 0 "J2" H 2225 2350 50  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "~" H 2250 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J1
+L 001-rescue:Conn_01x02_Female-Connector J1
 U 1 1 5C4A796D
 P 1000 2250
 F 0 "J1" H 1000 2375 50  0000 C CNN
@@ -114,7 +114,7 @@ F 3 "" H 2000 2475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J6
+L 001-rescue:Conn_01x02_Female-Connector J6
 U 1 1 5C4BEE00
 P 2250 2950
 F 0 "J6" H 2225 3050 50  0000 L CNN
@@ -125,7 +125,7 @@ F 3 "~" H 2250 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J3
+L 001-rescue:Conn_01x02_Female-Connector J3
 U 1 1 5C4BEE0A
 P 1000 2950
 F 0 "J3" H 1000 3075 50  0000 C CNN
@@ -201,7 +201,7 @@ Connection ~ 1275 3050
 Wire Wire Line
 	1275 3050 1200 3050
 $Comp
-L Connector:Conn_01x02_Female J7
+L 001-rescue:Conn_01x02_Female-Connector J7
 U 1 1 5C4CB9B4
 P 2250 3750
 F 0 "J7" H 2225 3850 50  0000 L CNN
@@ -212,7 +212,7 @@ F 3 "~" H 2250 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J4
+L 001-rescue:Conn_01x02_Female-Connector J4
 U 1 1 5C4CB9BE
 P 1000 3750
 F 0 "J4" H 1000 3875 50  0000 C CNN
@@ -281,7 +281,7 @@ Connection ~ 2000 3750
 Wire Wire Line
 	2000 3750 1925 3750
 $Comp
-L Connector:Conn_01x02_Female J8
+L 001-rescue:Conn_01x02_Female-Connector J8
 U 1 1 5C4D08E8
 P 2250 4425
 F 0 "J8" H 2225 4525 50  0000 L CNN
@@ -292,7 +292,7 @@ F 3 "~" H 2250 4425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J5
+L 001-rescue:Conn_01x02_Female-Connector J5
 U 1 1 5C4D08F2
 P 1000 4425
 F 0 "J5" H 1000 4550 50  0000 C CNN
@@ -361,7 +361,7 @@ Connection ~ 1275 4525
 Wire Wire Line
 	1275 4525 1200 4525
 $Comp
-L Connector:Conn_01x02_Female J13
+L 001-rescue:Conn_01x02_Female-Connector J13
 U 1 1 5C4E30D8
 P 3750 2250
 F 0 "J13" H 3725 2350 50  0000 L CNN
@@ -372,7 +372,7 @@ F 3 "~" H 3750 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J9
+L 001-rescue:Conn_01x02_Female-Connector J9
 U 1 1 5C4E30E2
 P 2500 2250
 F 0 "J9" H 2500 2375 50  0000 C CNN
@@ -434,7 +434,7 @@ F 3 "" H 3500 2475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J14
+L 001-rescue:Conn_01x02_Female-Connector J14
 U 1 1 5C4E3114
 P 3750 2950
 F 0 "J14" H 3725 3050 50  0000 L CNN
@@ -445,7 +445,7 @@ F 3 "~" H 3750 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J10
+L 001-rescue:Conn_01x02_Female-Connector J10
 U 1 1 5C4E311E
 P 2500 2950
 F 0 "J10" H 2500 3075 50  0000 C CNN
@@ -521,7 +521,7 @@ Connection ~ 2775 3050
 Wire Wire Line
 	2775 3050 2700 3050
 $Comp
-L Connector:Conn_01x02_Female J15
+L 001-rescue:Conn_01x02_Female-Connector J15
 U 1 1 5C4E3158
 P 3750 3750
 F 0 "J15" H 3725 3850 50  0000 L CNN
@@ -532,7 +532,7 @@ F 3 "~" H 3750 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J11
+L 001-rescue:Conn_01x02_Female-Connector J11
 U 1 1 5C4E3162
 P 2500 3750
 F 0 "J11" H 2500 3875 50  0000 C CNN
@@ -601,7 +601,7 @@ Connection ~ 3500 3750
 Wire Wire Line
 	3500 3750 3425 3750
 $Comp
-L Connector:Conn_01x02_Female J16
+L 001-rescue:Conn_01x02_Female-Connector J16
 U 1 1 5C4E3198
 P 3750 4425
 F 0 "J16" H 3725 4525 50  0000 L CNN
@@ -612,7 +612,7 @@ F 3 "~" H 3750 4425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J12
+L 001-rescue:Conn_01x02_Female-Connector J12
 U 1 1 5C4E31A2
 P 2500 4425
 F 0 "J12" H 2500 4550 50  0000 C CNN
@@ -723,7 +723,7 @@ Connection ~ 2775 3850
 Wire Wire Line
 	2775 3850 2700 3850
 $Comp
-L Connector_Generic:Conn_01x14 J17
+L 001-rescue:Conn_01x14-Connector_Generic J17
 U 1 1 5C4D1F80
 P 6200 4000
 F 0 "J17" H 6150 4700 50  0000 L CNN
@@ -734,7 +734,7 @@ F 3 "~" H 6200 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x14 J18
+L 001-rescue:Conn_01x14-Connector_Generic J18
 U 1 1 5C4D6F4B
 P 7000 4000
 F 0 "J18" H 6950 4700 50  0000 L CNN
@@ -897,7 +897,7 @@ F 3 "" H 7325 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VIN #PWR010
+L 001-rescue:VIN-power #PWR010
 U 1 1 5C55DEFA
 P 7325 3500
 F 0 "#PWR010" H 7325 3400 50  0001 C CNN
@@ -950,7 +950,7 @@ F 3 "" H 9850 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VIN #PWR014
+L 001-rescue:VIN-power #PWR014
 U 1 1 5C566CBC
 P 9425 1000
 F 0 "#PWR014" H 9425 900 50  0001 C CNN
