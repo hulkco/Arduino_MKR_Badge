@@ -1,8 +1,8 @@
-(module Edge.Back.Only.SilkS.02 (layer F.Cu) (tedit 5C4A743F)
+(module Edge.Back.Only.SilkS.02 (layer F.Cu) (tedit 5C5B0FD2)
   (descr "Imported from Back_03.svg")
   (tags svg2mod)
   (attr smd)
-  (fp_text reference Edge.Back.Only.B.SilkS (at 0 -51.886906) (layer F.SilkS) hide
+  (fp_text reference Edge.Back.Only.SilkS.02 (at 0 -51.886906) (layer F.Fab)
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
   )
   (fp_text value G*** (at 0 51.886906) (layer F.SilkS) hide

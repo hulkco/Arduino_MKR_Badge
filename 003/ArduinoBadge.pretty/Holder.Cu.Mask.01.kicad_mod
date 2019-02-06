@@ -1,11 +1,11 @@
-(module Holder.Cu.Mask.01 (layer F.Cu) (tedit 5C4A746F)
+(module Holder.Cu.Mask.01 (layer F.Cu) (tedit 5C5B174A)
   (descr "Imported from Holder_01.svg")
   (tags svg2mod)
   (attr smd)
-  (fp_text reference Holder.F.Cu.Mask (at 0 -6.34432) (layer F.SilkS) hide
+  (fp_text reference Holder.Cu.Mask.01 (at 0 -6.34432) (layer F.Fab)
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
   )
-  (fp_text value G*** (at 0 6.34432) (layer F.SilkS) hide
+  (fp_text value G*** (at 0 6.34432) (layer F.Fab) hide
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
   )
   (fp_line (start -5.093931 -2.896282) (end -4.43218 -2.896282) (layer F.Mask) (width 0.75))
