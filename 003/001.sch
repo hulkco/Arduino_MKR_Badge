@@ -670,7 +670,7 @@ U 1 1 5C5F5D0A
 P 5200 4150
 F 0 "J1" H 5150 4725 50  0000 L CNN
 F 1 "CONN_01X08" H 4950 4625 50  0000 L CNN
-F 2 "" H 5200 4150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Left" H 5200 4150 50  0001 C CNN
 F 3 "" H 5200 4150 50  0001 C CNN
 	1    5200 4150
 	1    0    0    -1  
@@ -683,7 +683,7 @@ U 1 1 5C5F9C11
 P 5800 4150
 F 0 "J2" H 5717 4715 50  0000 C CNN
 F 1 "CONN_01X08" H 5717 4624 50  0000 C CNN
-F 2 "" H 5800 4150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Left" H 5800 4150 50  0001 C CNN
 F 3 "" H 5800 4150 50  0001 C CNN
 	1    5800 4150
 	-1   0    0    -1  
@@ -738,6 +738,160 @@ F 1 "GND" H 4880 4327 50  0000 C CNN
 F 2 "" H 4875 4500 50  0001 C CNN
 F 3 "" H 4875 4500 50  0001 C CNN
 	1    4875 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:2019.All.Mask.02 U1
+U 1 1 5C5C8D11
+P 1000 5250
+F 0 "U1" H 1140 5296 50  0000 L CNN
+F 1 "2019.All.Mask.02" H 1140 5205 50  0000 L CNN
+F 2 "" H 1000 5250 50  0001 C CNN
+F 3 "" H 1000 5250 50  0001 C CNN
+	1    1000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:2019.All.Mask.03 U2
+U 1 1 5C5C9718
+P 1000 5525
+F 0 "U2" H 1140 5571 50  0000 L CNN
+F 1 "2019.All.Mask.03" H 1140 5480 50  0000 L CNN
+F 2 "" H 1000 5525 50  0001 C CNN
+F 3 "" H 1000 5525 50  0001 C CNN
+	1    1000 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:Arduino.SilkS U3
+U 1 1 5C5C9FC2
+P 1000 5825
+F 0 "U3" H 1140 5871 50  0000 L CNN
+F 1 "Arduino.SilkS" H 1140 5780 50  0000 L CNN
+F 2 "" H 1000 5825 50  0001 C CNN
+F 3 "" H 1000 5825 50  0001 C CNN
+	1    1000 5825
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:Edge.Back.Only.SilkS.02 U4
+U 1 1 5C5CA837
+P 1000 6125
+F 0 "U4" H 1140 6171 50  0000 L CNN
+F 1 "Edge.Back.Only.SilkS.02" H 1140 6080 50  0000 L CNN
+F 2 "" H 1000 6125 50  0001 C CNN
+F 3 "" H 1000 6125 50  0001 C CNN
+	1    1000 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:Edge.Only.SilkS.02 U5
+U 1 1 5C5CB3CB
+P 1000 6425
+F 0 "U5" H 1140 6471 50  0000 L CNN
+F 1 "Edge.Only.SilkS.02" H 1140 6380 50  0000 L CNN
+F 2 "" H 1000 6425 50  0001 C CNN
+F 3 "" H 1000 6425 50  0001 C CNN
+	1    1000 6425
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:Fig.04.Cu.Mask U6
+U 1 1 5C5CBB6E
+P 1000 6725
+F 0 "U6" H 1140 6771 50  0000 L CNN
+F 1 "Fig.04.Cu.Mask" H 1140 6680 50  0000 L CNN
+F 2 "" H 1000 6725 50  0001 C CNN
+F 3 "" H 1000 6725 50  0001 C CNN
+	1    1000 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:Fig.05.Cu.Mask U7
+U 1 1 5C5CC4BE
+P 1000 7050
+F 0 "U7" H 1140 7096 50  0000 L CNN
+F 1 "Fig.05.Cu.Mask" H 1140 7005 50  0000 L CNN
+F 2 "" H 1000 7050 50  0001 C CNN
+F 3 "" H 1000 7050 50  0001 C CNN
+	1    1000 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:Fig.06.Cu.Mask U8
+U 1 1 5C5CCA64
+P 2500 5250
+F 0 "U8" H 2640 5296 50  0000 L CNN
+F 1 "Fig.06.Cu.Mask" H 2640 5205 50  0000 L CNN
+F 2 "" H 2500 5250 50  0001 C CNN
+F 3 "" H 2500 5250 50  0001 C CNN
+	1    2500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:Holder.B.Cu.Mask.01 U9
+U 1 1 5C5CCEC9
+P 2500 5550
+F 0 "U9" H 2640 5596 50  0000 L CNN
+F 1 "Holder.B.Cu.Mask.01" H 2640 5505 50  0000 L CNN
+F 2 "" H 2500 5550 50  0001 C CNN
+F 3 "" H 2500 5550 50  0001 C CNN
+	1    2500 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:Holder.Cu.Mask.01 U10
+U 1 1 5C5CD33A
+P 2500 5850
+F 0 "U10" H 2640 5896 50  0000 L CNN
+F 1 "Holder.Cu.Mask.01" H 2640 5805 50  0000 L CNN
+F 2 "" H 2500 5850 50  0001 C CNN
+F 3 "" H 2500 5850 50  0001 C CNN
+	1    2500 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:logo.B.Mask.Der.01 U11
+U 1 1 5C5CD7B7
+P 2500 6175
+F 0 "U11" H 2640 6221 50  0000 L CNN
+F 1 "logo.B.Mask.Der.01" H 2640 6130 50  0000 L CNN
+F 2 "" H 2500 6175 50  0001 C CNN
+F 3 "" H 2500 6175 50  0001 C CNN
+	1    2500 6175
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:logo.B.Mask.Izq.01 U12
+U 1 1 5C5CDC40
+P 2500 6475
+F 0 "U12" H 2640 6521 50  0000 L CNN
+F 1 "logo.B.Mask.Izq.01" H 2640 6430 50  0000 L CNN
+F 2 "" H 2500 6475 50  0001 C CNN
+F 3 "" H 2500 6475 50  0001 C CNN
+	1    2500 6475
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:logo.F.Mask.Der.01 U13
+U 1 1 5C5CE0D5
+P 2500 6775
+F 0 "U13" H 2640 6821 50  0000 L CNN
+F 1 "logo.F.Mask.Der.01" H 2640 6730 50  0000 L CNN
+F 2 "" H 2500 6775 50  0001 C CNN
+F 3 "" H 2500 6775 50  0001 C CNN
+	1    2500 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:logo.F.Mask.Izq.01 U14
+U 1 1 5C5CE576
+P 2500 7050
+F 0 "U14" H 2640 7096 50  0000 L CNN
+F 1 "logo.F.Mask.Izq.01" H 2640 7005 50  0000 L CNN
+F 2 "" H 2500 7050 50  0001 C CNN
+F 3 "" H 2500 7050 50  0001 C CNN
+	1    2500 7050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
