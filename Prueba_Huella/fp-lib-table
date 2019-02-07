@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ArduinoBadge)(type KiCad)(uri /home/greynaga/Documents/KiCad/github/Arduino_MKR_Badge/003/ArduinoBadge.pretty)(options "")(descr ""))
+)

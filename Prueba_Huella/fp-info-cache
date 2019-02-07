@@ -1,4 +1,4 @@
-15954566996258506
+15934431970236964
 apa-106
 APA-106-F8
 APA-106-F8
@@ -308,6 +308,20 @@ svg2mod
 0
 0
 ArduinoBadge
+MKR_Family
+surface-mounted straight socket strip, 1x14, 2.54mm pitch, single row, style 1 (pin 1 left) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
+Surface mounted socket strip SMD 1x14 2.54mm single row style1 pin1 left
+0
+28
+28
+ArduinoBadge
+MKR_Family_SMD
+surface-mounted straight socket strip, 1x14, 2.54mm pitch, single row, style 1 (pin 1 left) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
+Surface mounted socket strip SMD 1x14 2.54mm single row style1 pin1 left
+0
+28
+28
+ArduinoBadge
 Neo-reverse_Mask
 
 
@@ -349,20 +363,6 @@ LED PLCC-2 SMD
 0
 2
 2
-base
-Neo-reverse_Mask
-
-
-0
-1
-0
-base
-Neo-reverse_SMD_4Pin
-surface-mounted straight pin header, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left)
-Surface mounted pin header SMD 1x04 2.54mm single row style1 pin1 left
-0
-4
-4
 Battery
 9VFemale
 
@@ -46270,16 +46270,16 @@ LED Cree PLCC-4
 4
 4
 LEDs
-LED_Cree-XB
+LED_CREE-XB
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXBD.pdf
-LED Cree XB
+LED CREE XB
 0
 5
 3
 LEDs
-LED_CREE-XB
+LED_Cree-XB
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXBD.pdf
-LED CREE XB
+LED Cree XB
 0
 5
 3
@@ -46326,6 +46326,13 @@ LED Cree XHP50
 17
 3
 LEDs
+LED_Cree-XHP50_12V
+Cree XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
+LED XHP50 Cree
+0
+15
+3
+LEDs
 LED_CREE-XHP50_12V
 CREE XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf 
 LED XHP50 CREE
@@ -46333,9 +46340,9 @@ LED XHP50 CREE
 15
 3
 LEDs
-LED_Cree-XHP50_12V
-Cree XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
-LED XHP50 Cree
+LED_CREE-XHP70_6V
+CREE XHP70 LED, 6V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
+LED CREE XHP70
 0
 15
 3
@@ -46345,13 +46352,6 @@ Cree XHP70 LED, 6V version, http://www.cree.com/~/media/Files/Cree/LED%20Compone
 LED Cree XHP70
 0
 17
-3
-LEDs
-LED_CREE-XHP70_6V
-CREE XHP70 LED, 6V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
-LED CREE XHP70
-0
-15
 3
 LEDs
 LED_CREE-XHP70_12V
@@ -46389,6 +46389,13 @@ LED Cree XP-G
 6
 3
 LEDs
+LED_CREE-XQ
+http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
+LED CREE XQ
+0
+2
+2
+LEDs
 LED_Cree-XQ
 LED Cree-XQ http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
 LED Cree XQ
@@ -46396,7 +46403,7 @@ LED Cree XQ
 2
 2
 LEDs
-LED_CREE-XQ
+LED_CREE-XQ_HandSoldering
 http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
 LED CREE XQ
 0
@@ -46406,13 +46413,6 @@ LEDs
 LED_Cree-XQ_HandSoldering
 LED Cree-XQ handsoldering pads http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
 LED Cree XQ
-0
-2
-2
-LEDs
-LED_CREE-XQ_HandSoldering
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
-LED CREE XQ
 0
 2
 2
@@ -48873,97 +48873,6 @@ TO-220, Neutral, Vertical, Large Pads,
 0
 3
 3
-neo-reverse
-C_1206_3216Metric_Pad1.39x1.80mm_HandSolder
-Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
-neo-reverse
-LED-RGB-5050-SMD
-
-
-0
-4
-4
-neo-reverse
-Neo-reverse_Mask
-
-
-0
-1
-0
-neo-reverse
-Neo-reverse_SMD_4Pin
-surface-mounted straight pin header, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left)
-Surface mounted pin header SMD 1x04 2.54mm single row style1 pin1 left
-0
-4
-4
-neo-reverse
-Neo-reverse_SMD_Pin1Left
-surface-mounted straight socket strip, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
-Surface mounted socket strip SMD 1x04 2.54mm single row style1 pin1 left
-0
-2
-2
-neo-reverse
-Neopixel_Reverse_P2.54mm
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-8
-2
-neo-reverse
-PinHeader_1x02_P2.54mm_Vertical
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-2
-2
-neo-reverse
-PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left
-surface-mounted straight pin header, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left)
-Surface mounted pin header SMD 1x04 2.54mm single row style1 pin1 left
-0
-4
-4
-neo-reverse
-PinHeader_Only_P2.54mm
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-2
-2
-neo-reverse
-PinSocket_1x02_P2.54mm_Neo_Reverse
-Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x04 2.54mm single row
-0
-2
-2
-neo-reverse
-PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left
-surface-mounted straight socket strip, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
-Surface mounted socket strip SMD 1x04 2.54mm single row style1 pin1 left
-0
-4
-4
-neo-reverse
-PinSocket_1x04_P2.54mm_WeMos
-Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x04 2.54mm single row
-0
-4
-4
-neo-reverse
-Pin_half-02x02_P2.54mm
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-8
-2
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
