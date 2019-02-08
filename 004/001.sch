@@ -1,0 +1,942 @@
+EESchema Schematic File Version 4
+LIBS:001-cache
+EELAYER 29 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5C4ADFA4
+P 10300 1000
+F 0 "#FLG0101" H 10300 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 10300 1173 50  0000 C CNN
+F 2 "" H 10300 1000 50  0001 C CNN
+F 3 "~" H 10300 1000 50  0001 C CNN
+	1    10300 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 1000 10300 1125
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5C4AECF0
+P 9000 1125
+F 0 "#FLG0102" H 9000 1200 50  0001 C CNN
+F 1 "PWR_FLAG" H 9000 1298 50  0000 C CNN
+F 2 "" H 9000 1125 50  0001 C CNN
+F 3 "~" H 9000 1125 50  0001 C CNN
+	1    9000 1125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9000 1125 9000 1000
+$Comp
+L power:GND #PWR0102
+U 1 1 5C4B11F4
+P 10300 1125
+F 0 "#PWR0102" H 10300 875 50  0001 C CNN
+F 1 "GND" H 10305 952 50  0000 C CNN
+F 2 "" H 10300 1125 50  0001 C CNN
+F 3 "" H 10300 1125 50  0001 C CNN
+	1    10300 1125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1700 4575 1700
+Wire Wire Line
+	4700 1850 4575 1850
+Wire Wire Line
+	4700 2000 4575 2000
+Wire Wire Line
+	4700 2150 4575 2150
+Wire Wire Line
+	4700 2300 4575 2300
+Wire Wire Line
+	4700 2450 4575 2450
+Wire Wire Line
+	4700 2600 4575 2600
+Wire Wire Line
+	4700 2750 4575 2750
+Wire Wire Line
+	4700 2900 4575 2900
+Wire Wire Line
+	4700 3050 4575 3050
+Wire Wire Line
+	4700 3200 4575 3200
+Wire Wire Line
+	4700 3350 4575 3350
+Wire Wire Line
+	4700 3500 4575 3500
+Wire Wire Line
+	4700 3650 4575 3650
+Wire Wire Line
+	5800 1700 5925 1700
+Wire Wire Line
+	5800 1850 5925 1850
+Wire Wire Line
+	5800 2300 5925 2300
+Wire Wire Line
+	5800 2450 5925 2450
+Wire Wire Line
+	5800 2600 5925 2600
+Wire Wire Line
+	5800 2750 5925 2750
+Wire Wire Line
+	5800 2900 5925 2900
+Wire Wire Line
+	5800 3050 5925 3050
+Wire Wire Line
+	5800 3200 5925 3200
+Wire Wire Line
+	5800 3350 5925 3350
+Wire Wire Line
+	5800 3500 5925 3500
+Wire Wire Line
+	5800 3650 5925 3650
+Text Label 4575 1700 2    50   ~ 0
+AREF
+Text Label 4575 1850 2    50   ~ 0
+DAC0-A0
+Text Label 4575 2000 2    50   ~ 0
+A1
+Text Label 4575 2150 2    50   ~ 0
+A2
+Text Label 4575 2300 2    50   ~ 0
+A3
+Text Label 4575 2450 2    50   ~ 0
+A4
+Text Label 4575 2600 2    50   ~ 0
+A5
+Text Label 4575 2750 2    50   ~ 0
+A6
+Text Label 4575 3050 2    50   ~ 0
+D1
+Text Label 4575 3200 2    50   ~ 0
+~D2
+Text Label 4575 3350 2    50   ~ 0
+~D3
+Text Label 4575 3500 2    50   ~ 0
+~D4
+Text Label 4575 3650 2    50   ~ 0
+~D5
+Text Label 5925 3650 0    50   ~ 0
+D6
+Text Label 5925 3500 0    50   ~ 0
+D7
+Text Label 5925 3350 0    50   ~ 0
+D8-MOSI
+Text Label 5925 3050 0    50   ~ 0
+D10-MISO
+Text Label 5925 2900 0    50   ~ 0
+D11-SDA
+Text Label 5925 2750 0    50   ~ 0
+D12-SCL
+Text Label 5925 2600 0    50   ~ 0
+D13->RX
+Text Label 5925 2450 0    50   ~ 0
+D14<-TX
+Text Label 5925 2300 0    50   ~ 0
+RESET
+Wire Wire Line
+	5800 2000 5925 2000
+$Comp
+L power:GND #PWR08
+U 1 1 5C5543CF
+P 6400 2150
+F 0 "#PWR08" H 6400 1900 50  0001 C CNN
+F 1 "GND" H 6405 1977 50  0000 C CNN
+F 2 "" H 6400 2150 50  0001 C CNN
+F 3 "" H 6400 2150 50  0001 C CNN
+	1    6400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR011
+U 1 1 5C55526E
+P 5925 2000
+F 0 "#PWR011" H 5925 1850 50  0001 C CNN
+F 1 "+3V3" V 5940 2128 50  0000 L CNN
+F 2 "" H 5925 2000 50  0001 C CNN
+F 3 "" H 5925 2000 50  0001 C CNN
+	1    5925 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L 001-rescue:VIN-power #PWR010
+U 1 1 5C55DEFA
+P 5925 1850
+F 0 "#PWR010" H 5925 1750 50  0001 C CNN
+F 1 "VIN" V 5940 1978 50  0000 L CNN
+F 2 "" H 5925 1850 50  0001 C CNN
+F 3 "" H 5925 1850 50  0001 C CNN
+	1    5925 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR09
+U 1 1 5C55F2A9
+P 5925 1700
+F 0 "#PWR09" H 5925 1550 50  0001 C CNN
+F 1 "+5V" V 5940 1828 50  0000 L CNN
+F 2 "" H 5925 1700 50  0001 C CNN
+F 3 "" H 5925 1700 50  0001 C CNN
+	1    5925 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR015
+U 1 1 5C566CB2
+P 9850 1000
+F 0 "#PWR015" H 9850 850 50  0001 C CNN
+F 1 "+3V3" V 9865 1128 50  0000 L CNN
+F 2 "" H 9850 1000 50  0001 C CNN
+F 3 "" H 9850 1000 50  0001 C CNN
+	1    9850 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 001-rescue:VIN-power #PWR014
+U 1 1 5C566CBC
+P 9425 1000
+F 0 "#PWR014" H 9425 900 50  0001 C CNN
+F 1 "VIN" V 9440 1128 50  0000 L CNN
+F 2 "" H 9425 1000 50  0001 C CNN
+F 3 "" H 9425 1000 50  0001 C CNN
+	1    9425 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR013
+U 1 1 5C566CC6
+P 9000 1000
+F 0 "#PWR013" H 9000 850 50  0001 C CNN
+F 1 "+5V" V 9015 1128 50  0000 L CNN
+F 2 "" H 9000 1000 50  0001 C CNN
+F 3 "" H 9000 1000 50  0001 C CNN
+	1    9000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5C5747BF
+P 9425 1125
+F 0 "#FLG01" H 9425 1200 50  0001 C CNN
+F 1 "PWR_FLAG" H 9425 1298 50  0000 C CNN
+F 2 "" H 9425 1125 50  0001 C CNN
+F 3 "~" H 9425 1125 50  0001 C CNN
+	1    9425 1125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9425 1125 9425 1000
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5C588053
+P 9850 1125
+F 0 "#FLG02" H 9850 1200 50  0001 C CNN
+F 1 "PWR_FLAG" H 9850 1298 50  0000 C CNN
+F 2 "" H 9850 1125 50  0001 C CNN
+F 3 "~" H 9850 1125 50  0001 C CNN
+	1    9850 1125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9850 1125 9850 1000
+$Comp
+L device:LED_ALT D1
+U 1 1 5C5AB63A
+P 1450 775
+F 0 "D1" H 1443 991 50  0000 C CNN
+F 1 "LED_ALT" H 1443 900 50  0000 C CNN
+F 2 "ArduinoBadge:SunLed_PLCC_Reverse-2" H 1450 775 50  0001 C CNN
+F 3 "" H 1450 775 50  0001 C CNN
+	1    1450 775 
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R1
+U 1 1 5C5AC812
+P 1025 775
+F 0 "R1" V 818 775 50  0000 C CNN
+F 1 "R" V 909 775 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" V 955 775 50  0001 C CNN
+F 3 "" H 1025 775 50  0001 C CNN
+	1    1025 775 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 775  1725 775 
+Wire Wire Line
+	1300 775  1175 775 
+Wire Wire Line
+	875  775  750  775 
+$Comp
+L power:GND #PWR01
+U 1 1 5C5B038F
+P 750 775
+F 0 "#PWR01" H 750 525 50  0001 C CNN
+F 1 "GND" H 755 602 50  0000 C CNN
+F 2 "" H 750 775 50  0001 C CNN
+F 3 "" H 750 775 50  0001 C CNN
+	1    750  775 
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:LED_ALT D2
+U 1 1 5C5B1608
+P 1450 1275
+F 0 "D2" H 1443 1491 50  0000 C CNN
+F 1 "LED_ALT" H 1443 1400 50  0000 C CNN
+F 2 "ArduinoBadge:SunLed_PLCC_Reverse-2" H 1450 1275 50  0001 C CNN
+F 3 "" H 1450 1275 50  0001 C CNN
+	1    1450 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R2
+U 1 1 5C5B1612
+P 1025 1275
+F 0 "R2" V 818 1275 50  0000 C CNN
+F 1 "R" V 909 1275 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" V 955 1275 50  0001 C CNN
+F 3 "" H 1025 1275 50  0001 C CNN
+	1    1025 1275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 1275 1725 1275
+Wire Wire Line
+	1300 1275 1175 1275
+Wire Wire Line
+	875  1275 750  1275
+$Comp
+L power:GND #PWR02
+U 1 1 5C5B161F
+P 750 1275
+F 0 "#PWR02" H 750 1025 50  0001 C CNN
+F 1 "GND" H 755 1102 50  0000 C CNN
+F 2 "" H 750 1275 50  0001 C CNN
+F 3 "" H 750 1275 50  0001 C CNN
+	1    750  1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:LED_ALT D3
+U 1 1 5C5B593B
+P 1450 1775
+F 0 "D3" H 1443 1991 50  0000 C CNN
+F 1 "LED_ALT" H 1443 1900 50  0000 C CNN
+F 2 "ArduinoBadge:SunLed_PLCC_Reverse-2" H 1450 1775 50  0001 C CNN
+F 3 "" H 1450 1775 50  0001 C CNN
+	1    1450 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R3
+U 1 1 5C5B5945
+P 1025 1775
+F 0 "R3" V 818 1775 50  0000 C CNN
+F 1 "R" V 909 1775 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" V 955 1775 50  0001 C CNN
+F 3 "" H 1025 1775 50  0001 C CNN
+	1    1025 1775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 1775 1725 1775
+Wire Wire Line
+	1300 1775 1175 1775
+Wire Wire Line
+	875  1775 750  1775
+$Comp
+L power:GND #PWR03
+U 1 1 5C5B5952
+P 750 1775
+F 0 "#PWR03" H 750 1525 50  0001 C CNN
+F 1 "GND" H 755 1602 50  0000 C CNN
+F 2 "" H 750 1775 50  0001 C CNN
+F 3 "" H 750 1775 50  0001 C CNN
+	1    750  1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:LED_ALT D4
+U 1 1 5C5B595C
+P 1450 2275
+F 0 "D4" H 1443 2491 50  0000 C CNN
+F 1 "LED_ALT" H 1443 2400 50  0000 C CNN
+F 2 "ArduinoBadge:SunLed_PLCC_Reverse-2" H 1450 2275 50  0001 C CNN
+F 3 "" H 1450 2275 50  0001 C CNN
+	1    1450 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R4
+U 1 1 5C5B5966
+P 1025 2275
+F 0 "R4" V 818 2275 50  0000 C CNN
+F 1 "R" V 909 2275 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" V 955 2275 50  0001 C CNN
+F 3 "" H 1025 2275 50  0001 C CNN
+	1    1025 2275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 2275 1725 2275
+Wire Wire Line
+	1300 2275 1175 2275
+Wire Wire Line
+	875  2275 750  2275
+$Comp
+L power:GND #PWR04
+U 1 1 5C5B5973
+P 750 2275
+F 0 "#PWR04" H 750 2025 50  0001 C CNN
+F 1 "GND" H 755 2102 50  0000 C CNN
+F 2 "" H 750 2275 50  0001 C CNN
+F 3 "" H 750 2275 50  0001 C CNN
+	1    750  2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:LED_ALT D5
+U 1 1 5C5B8FE3
+P 1450 2775
+F 0 "D5" H 1443 2991 50  0000 C CNN
+F 1 "LED_ALT" H 1443 2900 50  0000 C CNN
+F 2 "ArduinoBadge:SunLed_PLCC_Reverse-2" H 1450 2775 50  0001 C CNN
+F 3 "" H 1450 2775 50  0001 C CNN
+	1    1450 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R5
+U 1 1 5C5B8FED
+P 1025 2775
+F 0 "R5" V 818 2775 50  0000 C CNN
+F 1 "R" V 909 2775 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" V 955 2775 50  0001 C CNN
+F 3 "" H 1025 2775 50  0001 C CNN
+	1    1025 2775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 2775 1725 2775
+Wire Wire Line
+	1300 2775 1175 2775
+Wire Wire Line
+	875  2775 750  2775
+$Comp
+L power:GND #PWR05
+U 1 1 5C5B8FFA
+P 750 2775
+F 0 "#PWR05" H 750 2525 50  0001 C CNN
+F 1 "GND" H 755 2602 50  0000 C CNN
+F 2 "" H 750 2775 50  0001 C CNN
+F 3 "" H 750 2775 50  0001 C CNN
+	1    750  2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:LED_ALT D6
+U 1 1 5C5B9004
+P 1450 3275
+F 0 "D6" H 1443 3491 50  0000 C CNN
+F 1 "LED_ALT" H 1443 3400 50  0000 C CNN
+F 2 "ArduinoBadge:SunLed_PLCC_Reverse-2" H 1450 3275 50  0001 C CNN
+F 3 "" H 1450 3275 50  0001 C CNN
+	1    1450 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R6
+U 1 1 5C5B900E
+P 1025 3275
+F 0 "R6" V 818 3275 50  0000 C CNN
+F 1 "R" V 909 3275 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" V 955 3275 50  0001 C CNN
+F 3 "" H 1025 3275 50  0001 C CNN
+	1    1025 3275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 3275 1725 3275
+Wire Wire Line
+	1300 3275 1175 3275
+Wire Wire Line
+	875  3275 750  3275
+$Comp
+L power:GND #PWR06
+U 1 1 5C5B901B
+P 750 3275
+F 0 "#PWR06" H 750 3025 50  0001 C CNN
+F 1 "GND" H 755 3102 50  0000 C CNN
+F 2 "" H 750 3275 50  0001 C CNN
+F 3 "" H 750 3275 50  0001 C CNN
+	1    750  3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:LED_ALT D7
+U 1 1 5C5B9025
+P 1450 3775
+F 0 "D7" H 1443 3991 50  0000 C CNN
+F 1 "LED_ALT" H 1443 3900 50  0000 C CNN
+F 2 "ArduinoBadge:SunLed_PLCC_Reverse-2" H 1450 3775 50  0001 C CNN
+F 3 "" H 1450 3775 50  0001 C CNN
+	1    1450 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R7
+U 1 1 5C5B902F
+P 1025 3775
+F 0 "R7" V 818 3775 50  0000 C CNN
+F 1 "R" V 909 3775 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" V 955 3775 50  0001 C CNN
+F 3 "" H 1025 3775 50  0001 C CNN
+	1    1025 3775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 3775 1725 3775
+Wire Wire Line
+	1300 3775 1175 3775
+Wire Wire Line
+	875  3775 750  3775
+$Comp
+L power:GND #PWR07
+U 1 1 5C5B903C
+P 750 3775
+F 0 "#PWR07" H 750 3525 50  0001 C CNN
+F 1 "GND" H 755 3602 50  0000 C CNN
+F 2 "" H 750 3775 50  0001 C CNN
+F 3 "" H 750 3775 50  0001 C CNN
+	1    750  3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:LED_ALT D8
+U 1 1 5C5B9046
+P 1450 4275
+F 0 "D8" H 1443 4491 50  0000 C CNN
+F 1 "LED_ALT" H 1443 4400 50  0000 C CNN
+F 2 "ArduinoBadge:SunLed_PLCC_Reverse-2" H 1450 4275 50  0001 C CNN
+F 3 "" H 1450 4275 50  0001 C CNN
+	1    1450 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R8
+U 1 1 5C5B9050
+P 1025 4275
+F 0 "R8" V 818 4275 50  0000 C CNN
+F 1 "R" V 909 4275 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" V 955 4275 50  0001 C CNN
+F 3 "" H 1025 4275 50  0001 C CNN
+	1    1025 4275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 4275 1725 4275
+Wire Wire Line
+	1300 4275 1175 4275
+Wire Wire Line
+	875  4275 750  4275
+$Comp
+L power:GND #PWR012
+U 1 1 5C5B905D
+P 750 4275
+F 0 "#PWR012" H 750 4025 50  0001 C CNN
+F 1 "GND" H 755 4102 50  0000 C CNN
+F 2 "" H 750 4275 50  0001 C CNN
+F 3 "" H 750 4275 50  0001 C CNN
+	1    750  4275
+	1    0    0    -1  
+$EndComp
+Text Label 4575 2900 2    50   ~ 0
+D0
+Text Label 5925 3200 0    50   ~ 0
+D9-SCK
+Text Label 1725 775  0    50   ~ 0
+D0
+Text Label 1725 1275 0    50   ~ 0
+D1
+Text Label 1725 1775 0    50   ~ 0
+~D2
+Text Label 1725 2275 0    50   ~ 0
+~D3
+Text Label 1725 2775 0    50   ~ 0
+~D4
+Text Label 1725 3275 0    50   ~ 0
+~D5
+Text Label 1725 3775 0    50   ~ 0
+D6
+Text Label 1725 4275 0    50   ~ 0
+D7
+Text Label 4550 4750 2    50   ~ 0
+DAC0-A0
+Text Label 4550 4850 2    50   ~ 0
+A1
+Text Label 4550 4950 2    50   ~ 0
+A2
+Text Label 4550 5050 2    50   ~ 0
+A3
+Text Label 4550 5150 2    50   ~ 0
+A4
+Text Label 4550 5250 2    50   ~ 0
+A5
+Text Label 4550 5350 2    50   ~ 0
+A6
+Wire Wire Line
+	4675 4750 4550 4750
+Wire Wire Line
+	4675 4850 4550 4850
+Wire Wire Line
+	4675 4950 4550 4950
+Wire Wire Line
+	4675 5050 4550 5050
+Wire Wire Line
+	4675 5150 4550 5150
+Wire Wire Line
+	4675 5250 4550 5250
+Wire Wire Line
+	4675 5350 4550 5350
+$Comp
+L conn:CONN_01X08 J1
+U 1 1 5C5F5D0A
+P 4875 5100
+F 0 "J1" H 4825 5675 50  0000 L CNN
+F 1 "CONN_01X08" H 4625 5575 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Left" H 4875 5100 50  0001 C CNN
+F 3 "" H 4875 5100 50  0001 C CNN
+	1    4875 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 5450 4550 5450
+$Comp
+L conn:CONN_01X08 J2
+U 1 1 5C5F9C11
+P 5475 5100
+F 0 "J2" H 5392 5665 50  0000 C CNN
+F 1 "CONN_01X08" H 5392 5574 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Left" H 5475 5100 50  0001 C CNN
+F 3 "" H 5475 5100 50  0001 C CNN
+	1    5475 5100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5675 4750 5800 4750
+Wire Wire Line
+	5800 4850 5675 4850
+Wire Wire Line
+	5675 4950 5800 4950
+Wire Wire Line
+	5800 5050 5675 5050
+Wire Wire Line
+	5675 5150 5800 5150
+Wire Wire Line
+	5800 5250 5675 5250
+Wire Wire Line
+	5675 5350 5800 5350
+Wire Wire Line
+	5675 5450 5800 5450
+Text Label 5800 5350 0    50   ~ 0
+D8-MOSI
+Text Label 5800 5150 0    50   ~ 0
+D10-MISO
+Text Label 5800 5050 0    50   ~ 0
+D11-SDA
+Text Label 5800 4950 0    50   ~ 0
+D12-SCL
+Text Label 5800 4850 0    50   ~ 0
+D13->RX
+Text Label 5800 4750 0    50   ~ 0
+D14<-TX
+Text Label 5800 5250 0    50   ~ 0
+D9-SCK
+$Comp
+L power:+3V3 #PWR016
+U 1 1 5C615231
+P 5800 5450
+F 0 "#PWR016" H 5800 5300 50  0001 C CNN
+F 1 "+3V3" V 5815 5578 50  0000 L CNN
+F 2 "" H 5800 5450 50  0001 C CNN
+F 3 "" H 5800 5450 50  0001 C CNN
+	1    5800 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5C61FDD8
+P 4550 5450
+F 0 "#PWR0101" H 4550 5200 50  0001 C CNN
+F 1 "GND" H 4555 5277 50  0000 C CNN
+F 2 "" H 4550 5450 50  0001 C CNN
+F 3 "" H 4550 5450 50  0001 C CNN
+	1    4550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:2019.All.Mask.02 U1
+U 1 1 5C5C8D11
+P 750 5950
+F 0 "U1" H 890 5996 50  0000 L CNN
+F 1 "2019.All.Mask.02" H 890 5905 50  0000 L CNN
+F 2 "004:2019.2.All.B.Mask" H 750 5950 50  0001 C CNN
+F 3 "" H 750 5950 50  0001 C CNN
+	1    750  5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:2019.All.Mask.03 U2
+U 1 1 5C5C9718
+P 750 6225
+F 0 "U2" H 890 6271 50  0000 L CNN
+F 1 "2019.All.Mask.03" H 890 6180 50  0000 L CNN
+F 2 "004:2019.2.All" H 750 6225 50  0001 C CNN
+F 3 "" H 750 6225 50  0001 C CNN
+	1    750  6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:Arduino.SilkS U3
+U 1 1 5C5C9FC2
+P 750 6525
+F 0 "U3" H 890 6571 50  0000 L CNN
+F 1 "Arduino.SilkS" H 890 6480 50  0000 L CNN
+F 2 "ArduinoBadge:Arduino.SilkS" H 750 6525 50  0001 C CNN
+F 3 "" H 750 6525 50  0001 C CNN
+	1    750  6525
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:Edge.Back.Only.SilkS.02 U4
+U 1 1 5C5CA837
+P 750 6825
+F 0 "U4" H 890 6871 50  0000 L CNN
+F 1 "Edge.Back.Only.SilkS.02" H 890 6780 50  0000 L CNN
+F 2 "ArduinoBadge:Edge.Back.Only.SilkS.02" H 750 6825 50  0001 C CNN
+F 3 "" H 750 6825 50  0001 C CNN
+	1    750  6825
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:Edge.Only.SilkS.02 U5
+U 1 1 5C5CB3CB
+P 750 7125
+F 0 "U5" H 890 7171 50  0000 L CNN
+F 1 "Edge.Only.SilkS.02" H 890 7080 50  0000 L CNN
+F 2 "ArduinoBadge:Edge.Only.SilkS.02" H 750 7125 50  0001 C CNN
+F 3 "" H 750 7125 50  0001 C CNN
+	1    750  7125
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:Fig.04.Cu.Mask U6
+U 1 1 5C5CBB6E
+P 750 7425
+F 0 "U6" H 890 7471 50  0000 L CNN
+F 1 "Fig.04.Cu.Mask" H 890 7380 50  0000 L CNN
+F 2 "ArduinoBadge:Fig.04.Cu.Mask" H 750 7425 50  0001 C CNN
+F 3 "" H 750 7425 50  0001 C CNN
+	1    750  7425
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:Fig.05.Cu.Mask U7
+U 1 1 5C5CC4BE
+P 750 7750
+F 0 "U7" H 890 7796 50  0000 L CNN
+F 1 "Fig.05.Cu.Mask" H 890 7705 50  0000 L CNN
+F 2 "ArduinoBadge:Fig.05.Cu.Mask" H 750 7750 50  0001 C CNN
+F 3 "" H 750 7750 50  0001 C CNN
+	1    750  7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:Fig.06.Cu.Mask U8
+U 1 1 5C5CCA64
+P 2250 5950
+F 0 "U8" H 2390 5996 50  0000 L CNN
+F 1 "Fig.06.Cu.Mask" H 2390 5905 50  0000 L CNN
+F 2 "ArduinoBadge:Fig.06.Cu.Mask" H 2250 5950 50  0001 C CNN
+F 3 "" H 2250 5950 50  0001 C CNN
+	1    2250 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:Holder.B.Cu.Mask.01 U9
+U 1 1 5C5CCEC9
+P 2250 6250
+F 0 "U9" H 2390 6296 50  0000 L CNN
+F 1 "Holder.B.Cu.Mask.01" H 2390 6205 50  0000 L CNN
+F 2 "ArduinoBadge:Holder.B.Cu.Mask.01" H 2250 6250 50  0001 C CNN
+F 3 "" H 2250 6250 50  0001 C CNN
+	1    2250 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:Holder.Cu.Mask.01 U10
+U 1 1 5C5CD33A
+P 2250 6550
+F 0 "U10" H 2390 6596 50  0000 L CNN
+F 1 "Holder.Cu.Mask.01" H 2390 6505 50  0000 L CNN
+F 2 "ArduinoBadge:Holder.Cu.Mask.01" H 2250 6550 50  0001 C CNN
+F 3 "" H 2250 6550 50  0001 C CNN
+	1    2250 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:logo.B.Mask.Der.01 U11
+U 1 1 5C5CD7B7
+P 2250 6875
+F 0 "U11" H 2390 6921 50  0000 L CNN
+F 1 "logo.B.Mask.Der.01" H 2390 6830 50  0000 L CNN
+F 2 "ArduinoBadge:logo.B.Mask.Der.01" H 2250 6875 50  0001 C CNN
+F 3 "" H 2250 6875 50  0001 C CNN
+	1    2250 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:logo.B.Mask.Izq.01 U12
+U 1 1 5C5CDC40
+P 2250 7175
+F 0 "U12" H 2390 7221 50  0000 L CNN
+F 1 "logo.B.Mask.Izq.01" H 2390 7130 50  0000 L CNN
+F 2 "ArduinoBadge:logo.B.Mask.Izq.01" H 2250 7175 50  0001 C CNN
+F 3 "" H 2250 7175 50  0001 C CNN
+	1    2250 7175
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:logo.F.Mask.Der.01 U13
+U 1 1 5C5CE0D5
+P 2250 7475
+F 0 "U13" H 2390 7521 50  0000 L CNN
+F 1 "logo.F.Mask.Der.01" H 2390 7430 50  0000 L CNN
+F 2 "ArduinoBadge:logo.F.Mask.Der.01" H 2250 7475 50  0001 C CNN
+F 3 "" H 2250 7475 50  0001 C CNN
+	1    2250 7475
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:logo.F.Mask.Izq.01 U14
+U 1 1 5C5CE576
+P 2250 7750
+F 0 "U14" H 2390 7796 50  0000 L CNN
+F 1 "logo.F.Mask.Izq.01" H 2390 7705 50  0000 L CNN
+F 2 "ArduinoBadge:logo.F.Mask.Izq.01" H 2250 7750 50  0001 C CNN
+F 3 "" H 2250 7750 50  0001 C CNN
+	1    2250 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoBadge:MKR_Family U15
+U 1 1 5C5D18B4
+P 5250 2650
+F 0 "U15" H 5250 4365 50  0000 C CNN
+F 1 "MKR_Family" H 5250 4274 50  0000 C CNN
+F 2 "ArduinoBadge:MKR_Family_SMD" H 5250 2650 50  0001 C CNN
+F 3 "" H 5250 2650 50  0001 C CNN
+	1    5250 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2150 6400 2150
+NoConn ~ 5925 2300
+NoConn ~ 4575 1700
+$Comp
+L device:LED_ALT D9
+U 1 1 5C657D44
+P 1450 4775
+F 0 "D9" H 1443 4991 50  0000 C CNN
+F 1 "LED_ALT" H 1443 4900 50  0000 C CNN
+F 2 "ArduinoBadge:SunLed_PLCC_Reverse-2" H 1450 4775 50  0001 C CNN
+F 3 "" H 1450 4775 50  0001 C CNN
+	1    1450 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R9
+U 1 1 5C657D4E
+P 1025 4775
+F 0 "R9" V 818 4775 50  0000 C CNN
+F 1 "R" V 909 4775 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" V 955 4775 50  0001 C CNN
+F 3 "" H 1025 4775 50  0001 C CNN
+	1    1025 4775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 4775 1725 4775
+Wire Wire Line
+	1300 4775 1175 4775
+Wire Wire Line
+	875  4775 750  4775
+$Comp
+L power:GND #PWR017
+U 1 1 5C657D5B
+P 750 4775
+F 0 "#PWR017" H 750 4525 50  0001 C CNN
+F 1 "GND" H 755 4602 50  0000 C CNN
+F 2 "" H 750 4775 50  0001 C CNN
+F 3 "" H 750 4775 50  0001 C CNN
+	1    750  4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:LED_ALT D10
+U 1 1 5C657D65
+P 1450 5275
+F 0 "D10" H 1443 5491 50  0000 C CNN
+F 1 "LED_ALT" H 1443 5400 50  0000 C CNN
+F 2 "ArduinoBadge:SunLed_PLCC_Reverse-2" H 1450 5275 50  0001 C CNN
+F 3 "" H 1450 5275 50  0001 C CNN
+	1    1450 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R10
+U 1 1 5C657D6F
+P 1025 5275
+F 0 "R10" V 818 5275 50  0000 C CNN
+F 1 "R" V 909 5275 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" V 955 5275 50  0001 C CNN
+F 3 "" H 1025 5275 50  0001 C CNN
+	1    1025 5275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 5275 1725 5275
+Wire Wire Line
+	1300 5275 1175 5275
+Wire Wire Line
+	875  5275 750  5275
+$Comp
+L power:GND #PWR018
+U 1 1 5C657D7C
+P 750 5275
+F 0 "#PWR018" H 750 5025 50  0001 C CNN
+F 1 "GND" H 755 5102 50  0000 C CNN
+F 2 "" H 750 5275 50  0001 C CNN
+F 3 "" H 750 5275 50  0001 C CNN
+	1    750  5275
+	1    0    0    -1  
+$EndComp
+Text Label 1725 4775 0    50   ~ 0
+D8-MOSI
+Text Label 1725 5275 0    50   ~ 0
+D9-SCK
+$EndSCHEMATC
