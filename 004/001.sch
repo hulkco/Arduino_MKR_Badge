@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:001-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -253,7 +253,7 @@ $EndComp
 Wire Wire Line
 	9850 1125 9850 1000
 $Comp
-L device:LED_ALT D1
+L 001-rescue:LED_ALT-device D1
 U 1 1 5C5AB63A
 P 1450 775
 F 0 "D1" H 1443 991 50  0000 C CNN
@@ -264,7 +264,7 @@ F 3 "" H 1450 775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R1
+L 001-rescue:R-device R1
 U 1 1 5C5AC812
 P 1025 775
 F 0 "R1" V 818 775 50  0000 C CNN
@@ -292,7 +292,7 @@ F 3 "" H 750 775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_ALT D2
+L 001-rescue:LED_ALT-device D2
 U 1 1 5C5B1608
 P 1450 1275
 F 0 "D2" H 1443 1491 50  0000 C CNN
@@ -303,7 +303,7 @@ F 3 "" H 1450 1275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R2
+L 001-rescue:R-device R2
 U 1 1 5C5B1612
 P 1025 1275
 F 0 "R2" V 818 1275 50  0000 C CNN
@@ -331,7 +331,7 @@ F 3 "" H 750 1275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_ALT D3
+L 001-rescue:LED_ALT-device D3
 U 1 1 5C5B593B
 P 1450 1775
 F 0 "D3" H 1443 1991 50  0000 C CNN
@@ -342,7 +342,7 @@ F 3 "" H 1450 1775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R3
+L 001-rescue:R-device R3
 U 1 1 5C5B5945
 P 1025 1775
 F 0 "R3" V 818 1775 50  0000 C CNN
@@ -370,7 +370,7 @@ F 3 "" H 750 1775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_ALT D4
+L 001-rescue:LED_ALT-device D4
 U 1 1 5C5B595C
 P 1450 2275
 F 0 "D4" H 1443 2491 50  0000 C CNN
@@ -381,7 +381,7 @@ F 3 "" H 1450 2275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R4
+L 001-rescue:R-device R4
 U 1 1 5C5B5966
 P 1025 2275
 F 0 "R4" V 818 2275 50  0000 C CNN
@@ -409,7 +409,7 @@ F 3 "" H 750 2275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_ALT D5
+L 001-rescue:LED_ALT-device D5
 U 1 1 5C5B8FE3
 P 1450 2775
 F 0 "D5" H 1443 2991 50  0000 C CNN
@@ -420,7 +420,7 @@ F 3 "" H 1450 2775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R5
+L 001-rescue:R-device R5
 U 1 1 5C5B8FED
 P 1025 2775
 F 0 "R5" V 818 2775 50  0000 C CNN
@@ -448,7 +448,7 @@ F 3 "" H 750 2775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_ALT D6
+L 001-rescue:LED_ALT-device D6
 U 1 1 5C5B9004
 P 1450 3275
 F 0 "D6" H 1443 3491 50  0000 C CNN
@@ -459,7 +459,7 @@ F 3 "" H 1450 3275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R6
+L 001-rescue:R-device R6
 U 1 1 5C5B900E
 P 1025 3275
 F 0 "R6" V 818 3275 50  0000 C CNN
@@ -487,7 +487,7 @@ F 3 "" H 750 3275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_ALT D7
+L 001-rescue:LED_ALT-device D7
 U 1 1 5C5B9025
 P 1450 3775
 F 0 "D7" H 1443 3991 50  0000 C CNN
@@ -498,7 +498,7 @@ F 3 "" H 1450 3775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R7
+L 001-rescue:R-device R7
 U 1 1 5C5B902F
 P 1025 3775
 F 0 "R7" V 818 3775 50  0000 C CNN
@@ -526,7 +526,7 @@ F 3 "" H 750 3775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_ALT D8
+L 001-rescue:LED_ALT-device D8
 U 1 1 5C5B9046
 P 1450 4275
 F 0 "D8" H 1443 4491 50  0000 C CNN
@@ -537,7 +537,7 @@ F 3 "" H 1450 4275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R8
+L 001-rescue:R-device R8
 U 1 1 5C5B9050
 P 1025 4275
 F 0 "R8" V 818 4275 50  0000 C CNN
@@ -613,7 +613,7 @@ Wire Wire Line
 Wire Wire Line
 	4675 5350 4550 5350
 $Comp
-L conn:CONN_01X08 J1
+L 001-rescue:CONN_01X08-conn J1
 U 1 1 5C5F5D0A
 P 4875 5100
 F 0 "J1" H 4825 5675 50  0000 L CNN
@@ -626,7 +626,7 @@ $EndComp
 Wire Wire Line
 	4675 5450 4550 5450
 $Comp
-L conn:CONN_01X08 J2
+L 001-rescue:CONN_01X08-conn J2
 U 1 1 5C5F9C11
 P 5475 5100
 F 0 "J2" H 5392 5665 50  0000 C CNN
@@ -858,7 +858,7 @@ Wire Wire Line
 NoConn ~ 5925 2300
 NoConn ~ 4575 1700
 $Comp
-L device:LED_ALT D9
+L 001-rescue:LED_ALT-device D9
 U 1 1 5C657D44
 P 1450 4775
 F 0 "D9" H 1443 4991 50  0000 C CNN
@@ -869,7 +869,7 @@ F 3 "" H 1450 4775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R9
+L 001-rescue:R-device R9
 U 1 1 5C657D4E
 P 1025 4775
 F 0 "R9" V 818 4775 50  0000 C CNN
@@ -897,7 +897,7 @@ F 3 "" H 750 4775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_ALT D10
+L 001-rescue:LED_ALT-device D10
 U 1 1 5C657D65
 P 1450 5275
 F 0 "D10" H 1443 5491 50  0000 C CNN
@@ -908,7 +908,7 @@ F 3 "" H 1450 5275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R10
+L 001-rescue:R-device R10
 U 1 1 5C657D6F
 P 1025 5275
 F 0 "R10" V 818 5275 50  0000 C CNN
